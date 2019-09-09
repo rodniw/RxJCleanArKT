@@ -5,6 +5,8 @@ dependencies {
     def domainDependencies = rootProject.ext.domainDependencies
     def domainTestDependencies = rootProject.ext.domainTestDependencies
 
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$rootProject.kotlinVersion"
+
     implementation domainDependencies.javaxAnnotation
     implementation domainDependencies.javaxInject
     implementation domainDependencies.rxJava
