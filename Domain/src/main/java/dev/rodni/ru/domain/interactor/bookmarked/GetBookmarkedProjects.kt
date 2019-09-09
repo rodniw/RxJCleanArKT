@@ -1,4 +1,4 @@
-package dev.rodni.ru.domain.interactor.browse
+package dev.rodni.ru.domain.interactor.bookmarked
 
 import dev.rodni.ru.domain.executor.PostExecutionThread
 import dev.rodni.ru.domain.interactor.ObservableUseCase
