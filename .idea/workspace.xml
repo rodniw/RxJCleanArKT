@@ -7,8 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab578ab6-be02-4706-bafe-d56848b09136" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Domain/src/main/java/dev/rodni/ru/domain/interactor/browse/GetBookmarkedProjects.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/src/main/java/dev/rodni/ru/domain/interactor/bookmarked/BookmarkedProject.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/dev/rodni/ru/domain/interactor/CompletableUseCase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/dev/rodni/ru/domain/interactor/CompletableUseCase.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -39,36 +40,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/dev/rodni/ru/rxjcleanarkt/MainActivity.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dependencies.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Domain/src/main/java/dev/rodni/ru/domain/interactor/browse/GetProjects.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
-              <folding>
-                <element signature="e#47#186#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Domain/src/main/java/dev/rodni/ru/domain/repository/ProjectsRepository.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
@@ -78,13 +49,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Domain/src/main/java/dev/rodni/ru/domain/interactor/browse/GetBookmarkedProjects.kt">
+        <entry file="file://$PROJECT_DIR$/Domain/src/main/java/dev/rodni/ru/domain/interactor/bookmarked/BookmarkedProject.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="57" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
+            <state relative-caret-position="119">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
               <folding>
-                <element signature="e#47#186#0" expanded="true" />
+                <element signature="e#51#190#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Domain/src/main/java/dev/rodni/ru/domain/interactor/CompletableUseCase.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -119,9 +99,11 @@
         <option value="$PROJECT_DIR$/Domain/src/main/java/dev/rodni/ru/domain/model/Project.kt" />
         <option value="$PROJECT_DIR$/Domain/src/main/java/dev/rodni/ru/domain/repository/ProjectsRepository.kt" />
         <option value="$PROJECT_DIR$/Domain/src/main/java/dev/rodni/ru/domain/interactor/ObservableUseCase.kt" />
-        <option value="$PROJECT_DIR$/Domain/src/main/java/dev/rodni/ru/domain/interactor/CompletableUseCase.kt" />
         <option value="$PROJECT_DIR$/Domain/src/main/java/dev/rodni/ru/domain/interactor/browse/GetProjects.kt" />
         <option value="$PROJECT_DIR$/Domain/src/main/java/dev/rodni/ru/domain/interactor/browse/GetBookmarkedProjects.kt" />
+        <option value="$PROJECT_DIR$/Domain/src/main/java/dev/rodni/ru/domain/interactor/bookmarked/GetBookmarkedProjects.kt" />
+        <option value="$PROJECT_DIR$/Domain/src/main/java/dev/rodni/ru/domain/interactor/CompletableUseCase.kt" />
+        <option value="$PROJECT_DIR$/Domain/src/main/java/dev/rodni/ru/domain/interactor/bookmarked/BookmarkedProject.kt" />
       </list>
     </option>
   </component>
@@ -212,6 +194,17 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="domain" type="462c0819:PsiDirectoryNode" />
               <item name="interactor" type="462c0819:PsiDirectoryNode" />
+              <item name="bookmarked" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RxJCleanArKT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RxJCleanArKT" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Domain" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="interactor" type="462c0819:PsiDirectoryNode" />
               <item name="browse" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -252,6 +245,9 @@
   <component name="RecentsManager">
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
       <recent name="dev.rodni.ru.domain.interactor" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="dev.rodni.ru.domain.interactor.bookmarked" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -428,7 +424,21 @@
       <option name="project" value="LOCAL" />
       <updated>1568041525272</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="get bookmarked projects use case">
+      <created>1568042076606</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1568042076606</updated>
+    </task>
+    <task id="LOCAL-00007" summary="changed domain's interactor structure.">
+      <created>1568042206206</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1568042206206</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -438,7 +448,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.3260212" />
@@ -473,7 +482,9 @@
     <MESSAGE value="domain repository created." />
     <MESSAGE value="observable and completable use cases into the domain layer." />
     <MESSAGE value="the first use case inside the domain layer written" />
-    <option name="LAST_COMMIT_MESSAGE" value="the first use case inside the domain layer written" />
+    <MESSAGE value="get bookmarked projects use case" />
+    <MESSAGE value="changed domain's interactor structure." />
+    <option name="LAST_COMMIT_MESSAGE" value="changed domain's interactor structure." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml">
@@ -537,13 +548,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/dev/rodni/ru/rxjcleanarkt/MainActivity.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -603,17 +607,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Domain/src/main/java/dev/rodni/ru/domain/interactor/CompletableUseCase.kt">
+    <entry file="file://$PROJECT_DIR$/Domain/src/main/java/dev/rodni/ru/domain/interactor/bookmarked/GetBookmarkedProjects.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dependencies.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="255">
+          <caret line="15" column="57" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
+          <folding>
+            <element signature="e#47#186#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -627,6 +627,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dependencies.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/dev/rodni/ru/rxjcleanarkt/MainActivity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Domain/src/main/java/dev/rodni/ru/domain/repository/ProjectsRepository.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -634,12 +648,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Domain/src/main/java/dev/rodni/ru/domain/interactor/browse/GetBookmarkedProjects.kt">
+    <entry file="file://$PROJECT_DIR$/Domain/src/main/java/dev/rodni/ru/domain/interactor/CompletableUseCase.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="57" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
+        <state relative-caret-position="119">
+          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Domain/src/main/java/dev/rodni/ru/domain/interactor/bookmarked/BookmarkedProject.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
           <folding>
-            <element signature="e#47#186#0" expanded="true" />
+            <element signature="e#51#190#0" expanded="true" />
           </folding>
         </state>
       </provider>

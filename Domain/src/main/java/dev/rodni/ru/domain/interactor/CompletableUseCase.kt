@@ -8,7 +8,7 @@ import io.reactivex.observers.DisposableCompletableObserver
 import io.reactivex.schedulers.Schedulers
 
 //base completable use case abstract class
-abstract class CompletableUseCase<T, in Params> constructor(
+abstract class CompletableUseCase<in Params> constructor(
     private val postExecutionThread: PostExecutionThread
 ) {
 
