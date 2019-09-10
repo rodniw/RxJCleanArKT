@@ -1,4 +1,4 @@
-package dev.rodni.ru.domain.interactor
+package dev.rodni.ru.domain.interactor.browse
 
 import com.nhaarman.mockito_kotlin.whenever
 import dev.rodni.ru.domain.executor.PostExecutionThread
