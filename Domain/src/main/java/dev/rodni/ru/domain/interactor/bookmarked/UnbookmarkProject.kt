@@ -6,12 +6,12 @@ import dev.rodni.ru.domain.repository.ProjectsRepository
 import io.reactivex.Completable
 import javax.inject.Inject
 
-open class UnbookmarkedProject @Inject constructor(
+open class UnbookmarkProject @Inject constructor(
     private val projectsRepository: ProjectsRepository,
     executionThread: PostExecutionThread
-) : CompletableUseCase<UnbookmarkedProject.Params>(executionThread) {
+) : CompletableUseCase<UnbookmarkProject.Params>(executionThread) {
 
-    override fun buildUseCaseCompletable(params: Params?): Completable {
+    public override fun buildUseCaseCompletable(params: Params?): Completable {
         if (params == null) throw IllegalArgumentException("Passed nullable params")
         return projectsRepository.unbookmarkProject(params.projectId)
     }

@@ -7,9 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab578ab6-be02-4706-bafe-d56848b09136" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Domain/src/test/java/dev/rodni/ru/domain/interactor/bookmark/BookmarkProjectTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/src/test/java/dev/rodni/ru/domain/interactor/bookmark/UnbookmarkedProjectTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/dev/rodni/ru/domain/interactor/bookmarked/BookmarkedProject.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/dev/rodni/ru/domain/interactor/bookmarked/BookmarkProject.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/dev/rodni/ru/domain/interactor/bookmarked/UnbookmarkedProject.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/dev/rodni/ru/domain/interactor/bookmarked/UnbookmarkProject.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -49,21 +49,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Domain/src/main/java/dev/rodni/ru/domain/interactor/bookmarked/BookmarkProject.kt">
+        <entry file="file://$PROJECT_DIR$/Domain/src/test/java/dev/rodni/ru/domain/interactor/bookmark/BookmarkProjectTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="14" column="47" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="47" />
+            <state relative-caret-position="138">
+              <caret line="14" selection-start-line="14" selection-end-line="14" selection-end-column="53" />
+              <folding>
+                <element signature="e#49#542#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Domain/src/test/java/dev/rodni/ru/domain/interactor/bookmark/BookmarkProjectTest.kt">
+        <entry file="file://$PROJECT_DIR$/Domain/src/test/java/dev/rodni/ru/domain/interactor/bookmark/UnbookmarkedProjectTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="563">
-              <caret line="39" column="34" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
+            <state relative-caret-position="255">
+              <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
               <folding>
-                <element signature="e#49#542#0" expanded="true" />
+                <element signature="e#49#502#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -102,7 +105,6 @@
         <option value="$PROJECT_DIR$/Domain/src/main/java/dev/rodni/ru/domain/interactor/bookmarked/GetBookmarkedProjects.kt" />
         <option value="$PROJECT_DIR$/Domain/src/main/java/dev/rodni/ru/domain/interactor/CompletableUseCase.kt" />
         <option value="$PROJECT_DIR$/Domain/src/main/java/dev/rodni/ru/domain/interactor/bookmarked/BookmarkedProject.kt" />
-        <option value="$PROJECT_DIR$/Domain/src/main/java/dev/rodni/ru/domain/interactor/bookmarked/UnbookmarkedProject.kt" />
         <option value="$PROJECT_DIR$/Domain/src/test/java/dev/rodni/ru/domain/test/ProjectDataFactory.kt" />
         <option value="$PROJECT_DIR$/dependencies.gradle" />
         <option value="$PROJECT_DIR$/Domain/src/test/java/dev/rodni/ru/domain/interactor/GetProjectsTest.kt" />
@@ -112,6 +114,8 @@
         <option value="$PROJECT_DIR$/Domain/src/test/java/dev/rodni/ru/domain/interactor/bookmark/GetBookmarkProjectsTest.kt" />
         <option value="$PROJECT_DIR$/Domain/src/main/java/dev/rodni/ru/domain/interactor/bookmarked/BookmarkProject.kt" />
         <option value="$PROJECT_DIR$/Domain/src/test/java/dev/rodni/ru/domain/interactor/bookmark/BookmarkProjectTest.kt" />
+        <option value="$PROJECT_DIR$/Domain/src/main/java/dev/rodni/ru/domain/interactor/bookmarked/UnbookmarkedProject.kt" />
+        <option value="$PROJECT_DIR$/Domain/src/test/java/dev/rodni/ru/domain/interactor/bookmark/UnbookmarkedProjectTest.kt" />
       </list>
     </option>
   </component>
@@ -337,7 +341,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BookmarkProjectTest">
+  <component name="RunManager" selected="JUnit.UnbookmarkedProjectTest">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -492,8 +496,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UnbookmarkedProjectTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Domain" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.rodni.ru.domain.interactor.bookmark.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dev.rodni.ru.domain.interactor.bookmark" />
+      <option name="MAIN_CLASS_NAME" value="dev.rodni.ru.domain.interactor.bookmark.UnbookmarkedProjectTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UnbookmarkedProjectTest" />
         <item itemvalue="JUnit.BookmarkProjectTest" />
         <item itemvalue="JUnit.GetBookmarkProjectsTest" />
         <item itemvalue="JUnit.GetProjectsTest" />
@@ -589,7 +609,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568113214465</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="BookmarkProjectTest created and passed for BookmarkProject use case. also decided to change &quot;naming style&quot; and use &quot;Should&quot; when i name some test.">
+      <created>1568113956747</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1568113956747</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -601,6 +628,9 @@
     </history-entry>
     <history-entry file="GetBookmarkProjectsTest - 2019.09.10 at 13h 58m 40s.xml">
       <configuration name="GetBookmarkProjectsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BookmarkProjectTest - 2019.09.10 at 14h 11m 28s.xml">
+      <configuration name="BookmarkProjectTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -647,7 +677,8 @@
     <MESSAGE value="unbookmark use case inside the domain layer." />
     <MESSAGE value="get projects use case test written and passed." />
     <MESSAGE value="created and passes GetBookmarkProjectsTest for GetBookmarkProjects use case" />
-    <option name="LAST_COMMIT_MESSAGE" value="created and passes GetBookmarkProjectsTest for GetBookmarkProjects use case" />
+    <MESSAGE value="BookmarkProjectTest created and passed for BookmarkProject use case. also decided to change &quot;naming style&quot; and use &quot;Should&quot; when i name some test." />
+    <option name="LAST_COMMIT_MESSAGE" value="BookmarkProjectTest created and passed for BookmarkProject use case. also decided to change &quot;naming style&quot; and use &quot;Should&quot; when i name some test." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml">
@@ -794,16 +825,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Domain/src/main/java/dev/rodni/ru/domain/interactor/bookmarked/UnbookmarkedProject.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-          <folding>
-            <element signature="e#51#190#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Domain/src/test/java/dev/rodni/ru/domain/test/ProjectDataFactory.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -869,12 +890,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Domain/src/main/java/dev/rodni/ru/domain/interactor/bookmarked/UnbookmarkProject.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Domain/src/test/java/dev/rodni/ru/domain/interactor/bookmark/BookmarkProjectTest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="563">
-          <caret line="39" column="34" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
+        <state relative-caret-position="138">
+          <caret line="14" selection-start-line="14" selection-end-line="14" selection-end-column="53" />
           <folding>
             <element signature="e#49#542#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Domain/src/test/java/dev/rodni/ru/domain/interactor/bookmark/UnbookmarkedProjectTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="e#49#502#0" expanded="true" />
           </folding>
         </state>
       </provider>
