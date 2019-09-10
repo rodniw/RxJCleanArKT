@@ -51,25 +51,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Data/src/main/java/dev/rodni/ru/data/repository/ProjectsDataStore.kt">
+        <entry file="file://$PROJECT_DIR$/Data/src/main/java/dev/rodni/ru/data/store/ProjectsRemoteDataStore.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="36" />
+            <state relative-caret-position="138">
+              <caret line="17" column="29" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="29" />
               <folding>
-                <element signature="e#38#113#0" expanded="true" />
+                <element signature="e#33#221#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Data/src/main/java/dev/rodni/ru/data/repository/ProjectsCache.kt">
+        <entry file="file://$PROJECT_DIR$/Data/src/main/java/dev/rodni/ru/data/store/ProjectsCacheDataStore.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="26" column="63" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="26" selection-end-column="63" />
-              <folding>
-                <element signature="e#38#172#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="102">
+              <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -144,6 +141,7 @@
         <option value="$PROJECT_DIR$/Data/src/main/java/dev/rodni/ru/data/repository/ProjectsRemote.kt" />
         <option value="$PROJECT_DIR$/Data/src/main/java/dev/rodni/ru/data/repository/ProjectsDataStore.kt" />
         <option value="$PROJECT_DIR$/Data/src/main/java/dev/rodni/ru/data/store/ProjectsCacheDataStore.kt" />
+        <option value="$PROJECT_DIR$/Data/src/main/java/dev/rodni/ru/data/store/ProjectsRemoteDataStore.kt" />
       </list>
     </option>
   </component>
@@ -557,7 +555,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568127766054</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="contract data interface created. created its cache implementation.">
+      <created>1568128891285</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1568128891285</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -633,7 +638,8 @@
     <MESSAGE value="created Data layer module." />
     <MESSAGE value="entity and entity's mapper for data layer created." />
     <MESSAGE value="cache and remote data fetching interfaces inside the data layer." />
-    <option name="LAST_COMMIT_MESSAGE" value="cache and remote data fetching interfaces inside the data layer." />
+    <MESSAGE value="contract data interface created. created its cache implementation." />
+    <option name="LAST_COMMIT_MESSAGE" value="contract data interface created. created its cache implementation." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml">
@@ -910,6 +916,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Data/src/main/java/dev/rodni/ru/data/repository/ProjectsDataStore.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="52" lean-forward="true" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+          <folding>
+            <element signature="e#38#113#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Data/src/main/java/dev/rodni/ru/data/repository/ProjectsCache.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -922,20 +938,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Data/src/main/java/dev/rodni/ru/data/store/ProjectsCacheDataStore.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#33#221#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="102">
+          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data/src/main/java/dev/rodni/ru/data/repository/ProjectsDataStore.kt">
+    <entry file="file://$PROJECT_DIR$/Data/src/main/java/dev/rodni/ru/data/store/ProjectsRemoteDataStore.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="36" />
+        <state relative-caret-position="138">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="29" />
           <folding>
-            <element signature="e#38#113#0" expanded="true" />
+            <element signature="e#33#221#0" expanded="true" />
           </folding>
         </state>
       </provider>
