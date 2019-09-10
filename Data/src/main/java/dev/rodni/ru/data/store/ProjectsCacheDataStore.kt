@@ -10,8 +10,9 @@ import javax.inject.Inject
 /**
  * to discover implemented methods go to the parent here
  * @see ProjectsDataStore interface
+ * this class is open because of the testing
  */
-class ProjectsCacheDataStore @Inject constructor(
+open class ProjectsCacheDataStore @Inject constructor(
     private val projectsCache: ProjectsCache
 ) : ProjectsDataStore {
 

@@ -14,8 +14,10 @@ import javax.inject.Inject
  *
  * list of all the method and what they do
  * @see ProjectsDataStore interface
+ *
+ * this class is open because of the testing
  */
-class ProjectsRemoteDataStore @Inject constructor(
+open class ProjectsRemoteDataStore @Inject constructor(
     private val projectsRemote: ProjectsRemote
 ) : ProjectsDataStore{
 

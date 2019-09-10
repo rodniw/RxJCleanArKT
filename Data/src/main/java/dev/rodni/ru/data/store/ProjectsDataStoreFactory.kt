@@ -8,6 +8,8 @@ import javax.inject.Inject
  * two cases:
  * 1. cache
  * 2. remote
+ *
+ * this class is open because of the testing
  */
 open class ProjectsDataStoreFactory @Inject constructor(
     private val projectsCacheDataStore: ProjectsCacheDataStore,
