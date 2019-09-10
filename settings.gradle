@@ -1,2 +1,2 @@
-include ':Domain', ':Data'
+include ':Domain', ':Data', ':Remote'
 rootProject.name='RxJCleanArKT'

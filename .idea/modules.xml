@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Data/Data.iml" filepath="$PROJECT_DIR$/.idea/modules/Data/Data.iml" group="RxJCleanArKT/Data" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Domain/Domain.iml" filepath="$PROJECT_DIR$/.idea/modules/Domain/Domain.iml" group="RxJCleanArKT/Domain" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Remote/Remote.iml" filepath="$PROJECT_DIR$/.idea/modules/Remote/Remote.iml" group="RxJCleanArKT/Remote" />
       <module fileurl="file://$PROJECT_DIR$/RxJCleanArKT.iml" filepath="$PROJECT_DIR$/RxJCleanArKT.iml" group="RxJCleanArKT" />
     </modules>
   </component>

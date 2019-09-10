@@ -7,11 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab578ab6-be02-4706-bafe-d56848b09136" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Data/src/test/java/dev/rodni/ru/data/ProjectsDataRepositoryTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/src/test/java/dev/rodni/ru/data/store/ProjectsCacheDataStoreTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/src/test/java/dev/rodni/ru/data/store/ProjectsRemoteDataStoreTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Remote/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Remote/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Remote/src/main/java/dev/rodni/ru/remote/MyClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/src/main/java/dev/rodni/ru/data/ProjectsDataRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/src/main/java/dev/rodni/ru/data/ProjectsDataRepository.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/src/main/java/dev/rodni/ru/data/mapper/ProjectMapper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/src/main/java/dev/rodni/ru/data/mapper/ProjectMapper.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/src/test/java/dev/rodni/ru/data/PlaceHolder.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -45,22 +48,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Data/src/test/java/dev/rodni/ru/data/ProjectsDataRepositoryTest.kt">
+        <entry file="file://$PROJECT_DIR$/dependencies.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="19" lean-forward="true" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
-              <folding>
-                <element signature="e#27#537#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="213">
+              <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Data/src/main/java/dev/rodni/ru/data/ProjectsDataRepository.kt">
+        <entry file="file://$PROJECT_DIR$/Remote/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="21" column="38" lean-forward="true" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+            <state relative-caret-position="442">
+              <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -111,7 +111,6 @@
         <option value="$PROJECT_DIR$/Data/build.gradle" />
         <option value="$PROJECT_DIR$/Data/src/main/java/dev/rodni/ru/data/model/ProjectEntity.kt" />
         <option value="$PROJECT_DIR$/Data/src/main/java/dev/rodni/ru/data/mapper/EntityMapper.kt" />
-        <option value="$PROJECT_DIR$/dependencies.gradle" />
         <option value="$PROJECT_DIR$/Data/src/main/java/dev/rodni/ru/data/repository/ProjectsCache.kt" />
         <option value="$PROJECT_DIR$/Data/src/main/java/dev/rodni/ru/data/repository/ProjectsRemote.kt" />
         <option value="$PROJECT_DIR$/Data/src/main/java/dev/rodni/ru/data/repository/ProjectsDataStore.kt" />
@@ -125,6 +124,10 @@
         <option value="$PROJECT_DIR$/Data/src/main/java/dev/rodni/ru/data/ProjectsDataRepository.kt" />
         <option value="$PROJECT_DIR$/Data/src/main/java/dev/rodni/ru/data/mapper/ProjectMapper.kt" />
         <option value="$PROJECT_DIR$/Data/src/test/java/dev/rodni/ru/data/ProjectsDataRepositoryTest.kt" />
+        <option value="$PROJECT_DIR$/Data/src/test/java/dev/rodni/ru/data/store/ProjectsCacheDataStoreTest.kt" />
+        <option value="$PROJECT_DIR$/Data/src/test/java/dev/rodni/ru/data/store/ProjectsRemoteDataStoreTest.kt" />
+        <option value="$PROJECT_DIR$/Remote/build.gradle" />
+        <option value="$PROJECT_DIR$/dependencies.gradle" />
       </list>
     </option>
   </component>
@@ -154,91 +157,7 @@
             <path>
               <item name="RxJCleanArKT" type="b2602c69:ProjectViewProjectNode" />
               <item name="RxJCleanArKT" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="Data" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="RxJCleanArKT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RxJCleanArKT" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="Data" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RxJCleanArKT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RxJCleanArKT" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="Data" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RxJCleanArKT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RxJCleanArKT" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="Data" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RxJCleanArKT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RxJCleanArKT" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="Data" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RxJCleanArKT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RxJCleanArKT" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="Data" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RxJCleanArKT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RxJCleanArKT" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="Data" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RxJCleanArKT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RxJCleanArKT" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="Data" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="store" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RxJCleanArKT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RxJCleanArKT" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="Data" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RxJCleanArKT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RxJCleanArKT" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="Data" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RxJCleanArKT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RxJCleanArKT" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="Data" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="Remote" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -601,7 +520,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568144911999</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="ProjectsDataRepository tests created and passed.">
+      <created>1568146899517</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1568146899517</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -693,30 +619,10 @@
     <MESSAGE value="start setting up test directory. created random values object and object which generates project entities and pojos using that random values from those class." />
     <MESSAGE value="test for projects data store factory written and passed." />
     <MESSAGE value="wrote test for data layer's project entity mapper. already passed." />
-    <option name="LAST_COMMIT_MESSAGE" value="wrote test for data layer's project entity mapper. already passed." />
+    <MESSAGE value="ProjectsDataRepository tests created and passed." />
+    <option name="LAST_COMMIT_MESSAGE" value="ProjectsDataRepository tests created and passed." />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher_foreground.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1001,13 +907,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dependencies.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Domain/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1073,6 +972,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Data/src/test/java/dev/rodni/ru/data/store/ProjectsCacheDataStoreTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/src/test/java/dev/rodni/ru/data/store/ProjectsRemoteDataStoreTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/src/test/java/dev/rodni/ru/data/ProjectsDataRepositoryTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+          <folding>
+            <element signature="e#27#537#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Data/src/main/java/dev/rodni/ru/data/ProjectsDataRepository.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -1080,13 +1003,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data/src/test/java/dev/rodni/ru/data/ProjectsDataRepositoryTest.kt">
+    <entry file="file://$PROJECT_DIR$/Remote/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="19" lean-forward="true" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
-          <folding>
-            <element signature="e#27#537#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="442">
+          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dependencies.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
         </state>
       </provider>
     </entry>
