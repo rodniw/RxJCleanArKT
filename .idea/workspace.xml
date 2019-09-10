@@ -50,13 +50,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Data/src/main/java/dev/rodni/ru/data/store/ProjectsRemoteDataStore.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="17" column="29" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="29" />
+            <state relative-caret-position="223">
+              <caret line="22" column="65" lean-forward="true" selection-start-line="22" selection-start-column="65" selection-end-line="22" selection-end-column="65" />
               <folding>
                 <element signature="e#33#221#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Data/src/main/java/dev/rodni/ru/data/store/ProjectsDataStoreFactory.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+              <folding>
+                <element signature="e#33#113#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -142,6 +154,7 @@
         <option value="$PROJECT_DIR$/Data/src/main/java/dev/rodni/ru/data/repository/ProjectsDataStore.kt" />
         <option value="$PROJECT_DIR$/Data/src/main/java/dev/rodni/ru/data/store/ProjectsCacheDataStore.kt" />
         <option value="$PROJECT_DIR$/Data/src/main/java/dev/rodni/ru/data/store/ProjectsRemoteDataStore.kt" />
+        <option value="$PROJECT_DIR$/Data/src/main/java/dev/rodni/ru/data/store/ProjectsDataStoreFactory.kt" />
       </list>
     </option>
   </component>
@@ -562,7 +575,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568128891285</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="ProjectsRemoteDataStore created for remote's fetching data.">
+      <created>1568133558010</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1568133558010</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -639,7 +659,8 @@
     <MESSAGE value="entity and entity's mapper for data layer created." />
     <MESSAGE value="cache and remote data fetching interfaces inside the data layer." />
     <MESSAGE value="contract data interface created. created its cache implementation." />
-    <option name="LAST_COMMIT_MESSAGE" value="contract data interface created. created its cache implementation." />
+    <MESSAGE value="ProjectsRemoteDataStore created for remote's fetching data." />
+    <option name="LAST_COMMIT_MESSAGE" value="ProjectsRemoteDataStore created for remote's fetching data." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml">
@@ -945,10 +966,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Data/src/main/java/dev/rodni/ru/data/store/ProjectsRemoteDataStore.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="17" column="29" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="29" />
+        <state relative-caret-position="223">
+          <caret line="22" column="65" lean-forward="true" selection-start-line="22" selection-start-column="65" selection-end-line="22" selection-end-column="65" />
           <folding>
             <element signature="e#33#221#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/src/main/java/dev/rodni/ru/data/store/ProjectsDataStoreFactory.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+          <folding>
+            <element signature="e#33#113#0" expanded="true" />
           </folding>
         </state>
       </provider>
