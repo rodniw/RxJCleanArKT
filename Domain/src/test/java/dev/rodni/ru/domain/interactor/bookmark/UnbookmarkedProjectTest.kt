@@ -28,8 +28,8 @@ class UnbookmarkedProjectTest {
 
     //needs parameters inside buildUseCase method
     @Test
-    fun bookmarkProjectShouldCompletes() {
-        stubBookmarkProject(Completable.complete())
+    fun unbookmarkProjectShouldCompletes() {
+        stubUnbookmarkProject(Completable.complete())
         val testObserver = unbookmarkProject.buildUseCaseCompletable(
             UnbookmarkProject.Params.forProject(ProjectDataFactory.randomUuid())
         ).test()
@@ -37,12 +37,12 @@ class UnbookmarkedProjectTest {
     }
 
     @Test(expected = IllegalArgumentException::class)
-    fun bookmarkProjectShouldThrowIllegalArgException() {
+    fun unbookmarkProjectShouldThrowIllegalArgException() {
         unbookmarkProject.buildUseCaseCompletable().test()
     }
 
     //checking that calling to the repo returns an observable
-    private fun stubBookmarkProject(completable: Completable) {
+    private fun stubUnbookmarkProject(completable: Completable) {
         whenever(projectsRepository.unbookmarkProject(any()))
             .thenReturn(completable)
     }
