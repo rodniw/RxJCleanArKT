@@ -12,7 +12,8 @@ ext {
     rxJavaVersion = '2.4.0'
     javaxAnnotationVersion = '1.0'
     javaxInjectVersion = '1'
-    rxKotlinVersion = '2.1.0'
+    rxJavaVersion = '2.4.0'
+    rxKotlinVersion = '2.4.0'
     androidAnnotationsVersion = '21.0.3'
     daggerVersion = '2.11'
 
