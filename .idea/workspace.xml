@@ -7,13 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab578ab6-be02-4706-bafe-d56848b09136" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Data/src/main/java/dev/rodni/ru/data/repository/ProjectsCache.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/src/main/java/dev/rodni/ru/data/repository/ProjectsRemote.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_reactivex_rxjava2_rxkotlin_2_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Data/Data.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Data/Data.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/src/main/java/dev/rodni/ru/data/repository/ProjectsDataStore.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependencies.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies.gradle" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -55,23 +50,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Data/src/main/java/dev/rodni/ru/data/repository/ProjectsRemote.kt">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Data/src/main/java/dev/rodni/ru/data/repository/ProjectsDataStore.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+            <state>
+              <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="36" />
               <folding>
-                <element signature="e#38#114#0" expanded="true" />
+                <element signature="e#38#113#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Data/src/main/java/dev/rodni/ru/data/repository/ProjectsCache.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="30" />
+            <state relative-caret-position="340">
+              <caret line="26" column="63" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="26" selection-end-column="63" />
+              <folding>
+                <element signature="e#38#172#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -101,8 +99,8 @@
       <list>
         <option value="Kotlin Object" />
         <option value="Kotlin File" />
-        <option value="Kotlin Class" />
         <option value="Kotlin Interface" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -144,6 +142,8 @@
         <option value="$PROJECT_DIR$/dependencies.gradle" />
         <option value="$PROJECT_DIR$/Data/src/main/java/dev/rodni/ru/data/repository/ProjectsCache.kt" />
         <option value="$PROJECT_DIR$/Data/src/main/java/dev/rodni/ru/data/repository/ProjectsRemote.kt" />
+        <option value="$PROJECT_DIR$/Data/src/main/java/dev/rodni/ru/data/repository/ProjectsDataStore.kt" />
+        <option value="$PROJECT_DIR$/Data/src/main/java/dev/rodni/ru/data/store/ProjectsCacheDataStore.kt" />
       </list>
     </option>
   </component>
@@ -234,6 +234,16 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
               <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RxJCleanArKT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RxJCleanArKT" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Data" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -540,7 +550,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568116904547</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="cache and remote data fetching interfaces inside the data layer.">
+      <created>1568127766054</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1568127766054</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -615,7 +632,8 @@
     <MESSAGE value="oooops. simply changed method's names after stupid copy pasting." />
     <MESSAGE value="created Data layer module." />
     <MESSAGE value="entity and entity's mapper for data layer created." />
-    <option name="LAST_COMMIT_MESSAGE" value="entity and entity's mapper for data layer created." />
+    <MESSAGE value="cache and remote data fetching interfaces inside the data layer." />
+    <option name="LAST_COMMIT_MESSAGE" value="cache and remote data fetching interfaces inside the data layer." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml">
@@ -894,8 +912,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Data/src/main/java/dev/rodni/ru/data/repository/ProjectsCache.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="30" />
+        <state relative-caret-position="340">
+          <caret line="26" column="63" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="26" selection-end-column="63" />
+          <folding>
+            <element signature="e#38#172#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/src/main/java/dev/rodni/ru/data/store/ProjectsCacheDataStore.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#33#221#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/src/main/java/dev/rodni/ru/data/repository/ProjectsDataStore.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="36" />
+          <folding>
+            <element signature="e#38#113#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
