@@ -7,6 +7,8 @@ dependencies {
 
     compile project(':Domain')
 
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$rootProject.kotlinVersion"
+
     implementation dataDependencies.javaxAnnotation
     implementation dataDependencies.kotlin
     implementation dataDependencies.javaxInject
