@@ -18,7 +18,7 @@ import javax.inject.Inject
  * 2. projects cache repo for those request when i know exactly that i will use only cached data store
  * 3. factory which makes a decision which data store to use in which case
  */
-class ProjectsDataRepository @Inject constructor(
+open class ProjectsDataRepository @Inject constructor(
     private val mapper: ProjectMapper,
     private val cache: ProjectsCache,
     private val factory: ProjectsDataStoreFactory
