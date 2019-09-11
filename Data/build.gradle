@@ -5,12 +5,12 @@ dependencies {
     def dataDependencies = rootProject.ext.dataDependencies
     def dataTestDependencies = rootProject.ext.dataTestDependencies
 
-    compile project(':Domain')
+    implementation project(':Domain')
 
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$rootProject.kotlinVersion"
 
     implementation dataDependencies.javaxAnnotation
-    implementation dataDependencies.kotlin
+    //implementation dataDependencies.kotlin
     implementation dataDependencies.javaxInject
     implementation dataDependencies.rxKotlin
 

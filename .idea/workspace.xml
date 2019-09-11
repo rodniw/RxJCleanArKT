@@ -6,10 +6,154 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab578ab6-be02-4706-bafe-d56848b09136" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Remote/src/test/java/dev/rodni/ru/remote/mapper/ProjectsResponseModelMapperTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Remote/src/test/java/dev/rodni/ru/remote/factory/OwnerModelFactory.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Remote/src/test/java/dev/rodni/ru/remote/factory/ProjectModelFactory.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Remote/src/test/java/dev/rodni/ru/remote/factory/ProjectModelFactory.kt" afterDir="false" />
+    <list default="true" id="ab578ab6-be02-4706-bafe-d56848b09136" name="Default Changelist" comment="created cache layer's module where i will save data to room database. so, it's for data layer.">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_annotation_annotation_1_0_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_common_2_0_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_testing_2_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_collection_collection_1_0_0_rc01_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_0_0_rc01_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_documentfile_documentfile_1_0_0_rc01_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_utils_1_0_0_rc01_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_rc01_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_localbroadcastmanager_localbroadcastmanager_1_0_0_rc01_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_print_print_1_0_0_rc01_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_room_room_common_2_0_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_room_room_migration_2_0_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_room_room_runtime_2_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_room_room_rxjava2_2_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_room_room_testing_2_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_sqlite_sqlite_2_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_sqlite_sqlite_framework_2_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_0_0_rc01_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__annotations_13_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__assertj_core_3_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__backport_util_concurrent_backport_util_concurrent_3_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__classworlds_classworlds_1_1_alpha_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_almworks_sqlite4java_sqlite4java_0_282_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_apps_common_testing_accessibility_framework_accessibility_test_framework_2_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_gson_gson_2_8_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_guava_20_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_protobuf_protobuf_java_2_6_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_ibm_icu_icu4j_53_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_nhaarman_mockito_kotlin_1_5_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_thoughtworks_xstream_xstream_1_4_8_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_reactivex_rxjava2_rxjava_2_2_10_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_reactivex_rxjava2_rxkotlin_2_4_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_annotation_jsr250_api_1_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_inject_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_inject_javax_inject_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__jsr250_api_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__nekohtml_nekohtml_1_9_6_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__nekohtml_xercesMinimal_1_9_6_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_1_8_10_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_agent_1_8_10_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_ant_ant_1_8_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_ant_ant_launcher_1_8_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_maven_maven_ant_tasks_2_1_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_maven_maven_artifact_2_2_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_maven_maven_artifact_manager_2_2_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_maven_maven_error_diagnostics_2_2_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_maven_maven_model_2_2_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_maven_maven_plugin_registry_2_2_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_maven_maven_profile_2_2_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_maven_maven_project_2_2_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_maven_maven_repository_metadata_2_2_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_maven_maven_settings_2_2_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_maven_wagon_wagon_file_1_0_beta_6_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_maven_wagon_wagon_http_lightweight_1_0_beta_6_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_maven_wagon_wagon_http_shared_1_0_beta_6_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_maven_wagon_wagon_provider_api_1_0_beta_6_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_assertj_assertj_core_3_8_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bouncycastle_bcprov_jdk16_1_46_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_codehaus_plexus_plexus_container_default_1_0_alpha_9_stable_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_codehaus_plexus_plexus_interpolation_1_11_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_codehaus_plexus_plexus_utils_1_5_15_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_annotations_13_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_reflect_1_0_7_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_3_50_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_3_50_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_3_50_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_test_1_3_50_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_test_annotations_common_1_3_50_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_test_common_1_3_50_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_test_junit_1_3_50_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_mockito_mockito_core_2_19_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_objenesis_objenesis_2_6_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_ow2_asm_asm_5_0_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_ow2_asm_asm_commons_5_0_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_ow2_asm_asm_tree_5_0_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_reactivestreams_reactive_streams_1_0_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_robolectric_annotations_3_4_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_robolectric_framework_3_4_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_robolectric_junit_3_4_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_robolectric_resources_3_4_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_robolectric_robolectric_3_4_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_robolectric_sandbox_3_4_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_robolectric_shadowapi_3_4_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_robolectric_utils_3_4_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__reactive_streams_1_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__rxjava_2_2_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__rxkotlin_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__xmlpull_xmlpull_1_1_3_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__xpp3_xpp3_min_1_1_4c_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/cache.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/consumer-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/src/androidTest/java/dev/rodni/ru/cache/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/src/test/java/dev/rodni/ru/cache/ExampleUnitTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_gson_gson_2_8_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__gson_2_8_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_nhaarman_mockito_kotlin_1_5_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__mockito_kotlin_1_5_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp3_logging_interceptor_4_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__logging_interceptor_4_2_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp3_okhttp_4_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__okhttp_4_2_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okio_okio_2_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__okio_2_2_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_adapter_rxjava2_2_6_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__adapter_rxjava2_2_6_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_converter_gson_2_6_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__converter_gson_2_6_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_retrofit_2_6_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__retrofit_2_6_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_1_6_14.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__byte_buddy_1_6_14.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_agent_1_6_14.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__byte_buddy_agent_1_6_14.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_reflect_1_0_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__kotlin_reflect_1_0_7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_3_50.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__kotlin_stdlib_1_3_50.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_3_50.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__kotlin_stdlib_common_1_3_50.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_3_50.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__kotlin_stdlib_jdk7_1_3_50.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_test_1_3_50.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__kotlin_test_1_3_50.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_test_annotations_common_1_3_50.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__kotlin_test_annotations_common_1_3_50.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_test_common_1_3_50.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__kotlin_test_common_1_3_50.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_test_junit_1_3_50.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__kotlin_test_junit_1_3_50.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_mockito_mockito_core_2_8_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__mockito_core_2_8_9.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_objenesis_objenesis_2_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__objenesis_2_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Data/Data.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Data/Data.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Remote/Remote.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Remote/Remote.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Data/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RxJCleanArKT.iml" beforeDir="false" afterPath="$PROJECT_DIR$/RxJCleanArKT.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -46,27 +190,47 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Remote/src/test/java/dev/rodni/ru/remote/factory/ProjectModelFactory.kt">
+        <entry file="file://$PROJECT_DIR$/cache/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="22" column="54" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
-              <folding>
-                <element signature="e#37#182#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-399">
+              <caret line="6" column="69" selection-start-line="6" selection-start-column="69" selection-end-line="6" selection-end-column="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Data/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Remote/src/test/java/dev/rodni/ru/remote/mapper/ProjectsResponseModelMapperTest.kt">
+        <entry file="file://$PROJECT_DIR$/cache/src/androidTest/java/dev/rodni/ru/cache/ExampleInstrumentedTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+            <state relative-caret-position="289">
+              <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
               <folding>
-                <element signature="e#36#208#0" expanded="true" />
+                <element signature="e#144#256#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dependencies.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="47" column="12" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -87,9 +251,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Domain/src/main/java/dev/rodni/ru/domain/repository/ProjectsRepository.kt" />
-        <option value="$PROJECT_DIR$/Domain/src/main/java/dev/rodni/ru/domain/interactor/ObservableUseCase.kt" />
-        <option value="$PROJECT_DIR$/Domain/src/main/java/dev/rodni/ru/domain/interactor/browse/GetProjects.kt" />
         <option value="$PROJECT_DIR$/Domain/src/main/java/dev/rodni/ru/domain/interactor/browse/GetBookmarkedProjects.kt" />
         <option value="$PROJECT_DIR$/Domain/src/main/java/dev/rodni/ru/domain/interactor/bookmarked/GetBookmarkedProjects.kt" />
         <option value="$PROJECT_DIR$/Domain/src/main/java/dev/rodni/ru/domain/interactor/CompletableUseCase.kt" />
@@ -104,7 +265,6 @@
         <option value="$PROJECT_DIR$/Domain/src/test/java/dev/rodni/ru/domain/interactor/bookmark/BookmarkProjectTest.kt" />
         <option value="$PROJECT_DIR$/Domain/src/main/java/dev/rodni/ru/domain/interactor/bookmarked/UnbookmarkedProject.kt" />
         <option value="$PROJECT_DIR$/Domain/src/test/java/dev/rodni/ru/domain/interactor/bookmark/UnbookmarkedProjectTest.kt" />
-        <option value="$PROJECT_DIR$/Data/build.gradle" />
         <option value="$PROJECT_DIR$/Data/src/main/java/dev/rodni/ru/data/model/ProjectEntity.kt" />
         <option value="$PROJECT_DIR$/Data/src/main/java/dev/rodni/ru/data/mapper/EntityMapper.kt" />
         <option value="$PROJECT_DIR$/Data/src/main/java/dev/rodni/ru/data/repository/ProjectsCache.kt" />
@@ -121,14 +281,12 @@
         <option value="$PROJECT_DIR$/Data/src/test/java/dev/rodni/ru/data/ProjectsDataRepositoryTest.kt" />
         <option value="$PROJECT_DIR$/Data/src/test/java/dev/rodni/ru/data/store/ProjectsCacheDataStoreTest.kt" />
         <option value="$PROJECT_DIR$/Data/src/test/java/dev/rodni/ru/data/store/ProjectsRemoteDataStoreTest.kt" />
-        <option value="$PROJECT_DIR$/dependencies.gradle" />
         <option value="$PROJECT_DIR$/Remote/build.gradle" />
         <option value="$PROJECT_DIR$/Remote/src/main/java/dev/rodni/ru/remote/model/OwnerModel.kt" />
         <option value="$PROJECT_DIR$/Remote/src/main/java/dev/rodni/ru/remote/model/ProjectsReponseModel.kt" />
         <option value="$PROJECT_DIR$/Remote/src/main/java/dev/rodni/ru/remote/service/GithubTrendingService.kt" />
         <option value="$PROJECT_DIR$/Remote/src/main/java/dev/rodni/ru/remote/service/GithubTrendingServiceFactory.kt" />
         <option value="$PROJECT_DIR$/Remote/src/main/java/dev/rodni/ru/remote/mapper/ModelMapper.kt" />
-        <option value="$PROJECT_DIR$/Remote/src/main/java/dev/rodni/ru/remote/mapper/ProjectsResponseModelMapper.kt" />
         <option value="$PROJECT_DIR$/Remote/src/main/java/dev/rodni/ru/remote/model/ProjectModel.kt" />
         <option value="$PROJECT_DIR$/Data/src/main/java/dev/rodni/ru/data/repository/ProjectsRemote.kt" />
         <option value="$PROJECT_DIR$/Remote/src/main/java/dev/rodni/ru/remote/ProjectsRemoteImpl.kt" />
@@ -138,6 +296,12 @@
         <option value="$PROJECT_DIR$/Remote/src/test/java/dev/rodni/ru/remote/factory/OwnerModelFactory.kt" />
         <option value="$PROJECT_DIR$/Remote/src/test/java/dev/rodni/ru/remote/factory/ProjectModelFactory.kt" />
         <option value="$PROJECT_DIR$/Remote/src/test/java/dev/rodni/ru/remote/mapper/ProjectsResponseModelMapperTest.kt" />
+        <option value="$PROJECT_DIR$/Remote/src/test/java/dev/rodni/ru/remote/ProjectsRemoteImplTest.kt" />
+        <option value="$PROJECT_DIR$/Remote/src/main/java/dev/rodni/ru/remote/mapper/ProjectsResponseModelMapper.kt" />
+        <option value="$PROJECT_DIR$/cache/build.gradle" />
+        <option value="$PROJECT_DIR$/dependencies.gradle" />
+        <option value="$PROJECT_DIR$/Data/build.gradle" />
+        <option value="$PROJECT_DIR$/cache/src/androidTest/java/dev/rodni/ru/cache/ExampleInstrumentedTest.kt" />
       </list>
     </option>
   </component>
@@ -164,121 +328,18 @@
               <item name="RxJCleanArKT" type="b2602c69:ProjectViewProjectNode" />
               <item name="RxJCleanArKT" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
-            <path>
-              <item name="RxJCleanArKT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RxJCleanArKT" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="Data" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="RxJCleanArKT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RxJCleanArKT" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="Remote" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="RxJCleanArKT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RxJCleanArKT" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="Remote" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RxJCleanArKT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RxJCleanArKT" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="Remote" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RxJCleanArKT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RxJCleanArKT" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="Remote" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RxJCleanArKT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RxJCleanArKT" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="Remote" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="remote" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RxJCleanArKT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RxJCleanArKT" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="Remote" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="remote" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RxJCleanArKT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RxJCleanArKT" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="Remote" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="remote" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RxJCleanArKT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RxJCleanArKT" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="Remote" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RxJCleanArKT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RxJCleanArKT" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="Remote" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RxJCleanArKT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RxJCleanArKT" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="Remote" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="remote" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RxJCleanArKT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RxJCleanArKT" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="Remote" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="remote" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RxJCleanArKT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RxJCleanArKT" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="Remote" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="remote" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="not.eligible.for.single.variant.sync" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Dependencies" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.general" />
@@ -304,7 +365,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ProjectsResponseModelMapperTest">
+  <component name="RunManager" selected="JUnit.ProjectsRemoteImplTest">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -365,21 +426,6 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetProjectsTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Domain" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dev.rodni.ru.domain.interactor.browse.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dev.rodni.ru.domain.interactor.browse" />
-      <option name="MAIN_CLASS_NAME" value="dev.rodni.ru.domain.interactor.browse.GetProjectsTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ProjectMapperTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Data" />
       <extension name="coverage">
@@ -425,6 +471,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProjectsRemoteImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Remote" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.rodni.ru.remote.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dev.rodni.ru.remote" />
+      <option name="MAIN_CLASS_NAME" value="dev.rodni.ru.remote.ProjectsRemoteImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProjectsResponseModelMapperTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Remote" />
       <extension name="coverage">
@@ -442,11 +503,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ProjectsRemoteImplTest" />
         <item itemvalue="JUnit.ProjectsResponseModelMapperTest" />
         <item itemvalue="JUnit.ProjectsDataRepositoryTest" />
         <item itemvalue="JUnit.ProjectMapperTest" />
         <item itemvalue="JUnit.ProjectsDataStoreFactoryTest" />
-        <item itemvalue="JUnit.GetProjectsTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -685,19 +746,24 @@
       <option name="project" value="LOCAL" />
       <updated>1568215399236</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="created and passed test for project response model mapper">
+      <created>1568215793798</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1568215793798</updated>
+    </task>
+    <task id="LOCAL-00034" summary="created and passed tests for ProjectsRemoteImpl.">
+      <created>1568217637288</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1568217637288</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UnbookmarkedProjectTest - 2019.09.10 at 14h 16m 24s.xml">
-      <configuration name="UnbookmarkedProjectTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UnbookmarkedProjectTest - 2019.09.10 at 14h 18m 42s.xml">
-      <configuration name="UnbookmarkedProjectTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GetProjectsTest_(1) - 2019.09.10 at 14h 23m 15s.xml">
-      <configuration name="GetProjectsTest (1)" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ProjectsDataStoreFactoryTest - 2019.09.10 at 22h 30m 34s.xml">
       <configuration name="ProjectsDataStoreFactoryTest" configurationId="JUnit" />
     </history-entry>
@@ -719,13 +785,22 @@
     <history-entry file="ProjectsDataRepositoryTest - 2019.09.10 at 23h 11m 39s.xml">
       <configuration name="ProjectsDataRepositoryTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ProjectsResponseModelMapperTest - 2019.09.11 at 18h 29m 25s.xml">
+      <configuration name="ProjectsResponseModelMapperTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProjectsRemoteImplTest - 2019.09.11 at 18h 58m 54s.xml">
+      <configuration name="ProjectsRemoteImplTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProjectsRemoteImplTest - 2019.09.11 at 18h 59m 58s.xml">
+      <configuration name="ProjectsRemoteImplTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.33055976" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.33055976" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Build Variants" order="4" side_tool="true" />
@@ -753,9 +828,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="bookmark with params use case." />
-    <MESSAGE value="unbookmark use case inside the domain layer." />
-    <MESSAGE value="get projects use case test written and passed." />
     <MESSAGE value="created and passes GetBookmarkProjectsTest for GetBookmarkProjects use case" />
     <MESSAGE value="BookmarkProjectTest created and passed for BookmarkProject use case. also decided to change &quot;naming style&quot; and use &quot;Should&quot; when i name some test." />
     <MESSAGE value="UnbookmarkProjectTest created and passed for UnbookmarkProject use case." />
@@ -778,47 +850,12 @@
     <MESSAGE value="created mapper for project's models to pass into data layer's project entity. also added id field into ProjectModel data class into remote layer." />
     <MESSAGE value="main repo into the remote layer which is a bridge to the data layer. this repo has the only one method to fetch list of projects from the github." />
     <MESSAGE value="setting up remote layer test package to test the project mapper and the data fetching." />
-    <option name="LAST_COMMIT_MESSAGE" value="setting up remote layer test package to test the project mapper and the data fetching." />
+    <MESSAGE value="created and passed test for project response model mapper" />
+    <MESSAGE value="created and passed tests for ProjectsRemoteImpl." />
+    <MESSAGE value="created cache layer's module where i will save data to room database. so, it's for data layer." />
+    <option name="LAST_COMMIT_MESSAGE" value="created cache layer's module where i will save data to room database. so, it's for data layer." />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Domain/src/main/java/dev/rodni/ru/domain/repository/ProjectsRepository.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Domain/src/main/java/dev/rodni/ru/domain/interactor/CompletableUseCase.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Domain/src/test/java/dev/rodni/ru/domain/interactor/bookmark/GetBookmarkProjectsTest.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="e#49#507#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Domain/src/main/java/dev/rodni/ru/domain/interactor/bookmarked/BookmarkProject.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="14" column="47" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Domain/src/main/java/dev/rodni/ru/domain/interactor/bookmarked/UnbookmarkProject.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -885,13 +922,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.2.10/9d22e03b9f0a300edff23ccf219d406d12c3378f/rxjava-2.2.10-sources.jar!/io/reactivex/Observable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="9778" column="35" selection-start-line="9778" selection-start-column="35" selection-end-line="9778" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -1049,16 +1079,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Remote/src/main/java/dev/rodni/ru/remote/service/GithubTrendingService.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="31" />
-          <folding>
-            <element signature="e#37#144#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Remote/src/main/java/dev/rodni/ru/remote/service/GithubTrendingServiceFactory.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -1097,16 +1117,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Remote/src/main/java/dev/rodni/ru/remote/ProjectsRemoteImpl.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="31" column="53" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="53" />
-          <folding>
-            <element signature="e#29#182#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Remote/src/main/java/dev/rodni/ru/remote/model/ProjectModel.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -1131,16 +1141,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Remote/src/main/java/dev/rodni/ru/remote/mapper/ProjectsResponseModelMapper.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-          <folding>
-            <element signature="e#36#126#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Domain/src/test/java/dev/rodni/ru/domain/test/ProjectDataFactory.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -1151,13 +1151,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Remote/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -1165,10 +1158,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dependencies.gradle">
+    <entry file="file://$PROJECT_DIR$/Remote/src/test/java/dev/rodni/ru/remote/mapper/ProjectsResponseModelMapperTest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1224">
-          <caret line="72" column="41" selection-start-line="72" selection-start-column="41" selection-end-line="72" selection-end-column="41" />
+        <state relative-caret-position="144">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding>
+            <element signature="e#36#208#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1182,12 +1178,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Remote/src/test/java/dev/rodni/ru/remote/mapper/ProjectsResponseModelMapperTest.kt">
+    <entry file="file://$PROJECT_DIR$/Remote/src/main/java/dev/rodni/ru/remote/ProjectsRemoteImpl.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        <state relative-caret-position="442">
+          <caret line="31" column="53" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.2.10/9d22e03b9f0a300edff23ccf219d406d12c3378f/rxjava-2.2.10-sources.jar!/io/reactivex/Observable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="15461" column="33" selection-start-line="15461" selection-start-column="33" selection-end-line="15461" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Remote/src/main/java/dev/rodni/ru/remote/service/GithubTrendingService.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.nhaarman/mockito-kotlin/1.5.0/87eb468d9b75a267dd1a3f354e5b7284bea20217/mockito-kotlin-1.5.0-sources.jar!/com/nhaarman/mockito_kotlin/Mockito.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1470">
+          <caret line="247" column="8" selection-start-line="247" selection-start-column="8" selection-end-line="247" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Remote/src/test/java/dev/rodni/ru/remote/ProjectsRemoteImplTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="22" column="2" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
           <folding>
-            <element signature="e#36#208#0" expanded="true" />
+            <element signature="e#29#343#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Remote/src/main/java/dev/rodni/ru/remote/mapper/ProjectsResponseModelMapper.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="e#36#126#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cache/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-399">
+          <caret line="6" column="69" selection-start-line="6" selection-start-column="69" selection-end-line="6" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dependencies.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="47" column="12" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cache/src/androidTest/java/dev/rodni/ru/cache/ExampleInstrumentedTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+          <folding>
+            <element signature="e#144#256#0" expanded="true" />
           </folding>
         </state>
       </provider>
