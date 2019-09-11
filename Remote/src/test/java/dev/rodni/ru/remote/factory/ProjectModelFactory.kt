@@ -1,6 +1,7 @@
 package dev.rodni.ru.remote.factory
 
 import dev.rodni.ru.data.model.ProjectEntity
+import dev.rodni.ru.remote.model.OwnerModel
 import dev.rodni.ru.remote.model.ProjectModel
 import dev.rodni.ru.remote.model.ProjectsResponseModel
 
@@ -9,13 +10,17 @@ import dev.rodni.ru.remote.model.ProjectsResponseModel
  */
 object ProjectModelFactory {
 
+    fun makeOwnerModel(): OwnerModel {
+        return OwnerModel(DataFactory.randomUuid(), DataFactory.randomUuid())
+    }
+
     /**
      * creates fake project model
      */
     fun makeProject(): ProjectModel {
         return ProjectModel(DataFactory.randomUuid(), DataFactory.randomUuid(),
             DataFactory.randomUuid(), DataFactory.randomInt(),
-            DataFactory.randomUuid(), OwnerModelFactory.makeOwnerModel())
+            DataFactory.randomUuid(), makeOwnerModel())
     }
 
     /**
