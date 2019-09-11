@@ -42,6 +42,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../Remote">
       <sourceFolder url="file://$MODULE_DIR$/../../../Remote/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../Remote/src/test/java" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/../../../Remote/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/../../../Remote/build" />
       <excludeFolder url="file://$MODULE_DIR$/../../../Remote/out" />
