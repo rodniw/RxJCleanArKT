@@ -7,8 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab578ab6-be02-4706-bafe-d56848b09136" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Remote/src/main/java/dev/rodni/ru/remote/mapper/ModelMapper.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Remote/src/main/java/dev/rodni/ru/remote/mapper/ProjectsResponseModelMapper.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Remote/src/main/java/dev/rodni/ru/remote/ProjectsRemoteImpl.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/src/main/java/dev/rodni/ru/data/repository/ProjectsRemote.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/src/main/java/dev/rodni/ru/data/repository/ProjectsRemote.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -53,14 +54,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Remote/src/main/java/dev/rodni/ru/remote/mapper/ProjectsResponseModelMapper.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+            <state relative-caret-position="102">
+              <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
               <folding>
                 <element signature="e#36#126#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Remote/src/main/java/dev/rodni/ru/remote/ProjectsRemoteImpl.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="461">
+              <caret line="31" column="53" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="53" />
+              <folding>
+                <element signature="e#29#182#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Remote/src/main/java/dev/rodni/ru/remote/model/ProjectModel.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -101,7 +123,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
@@ -129,7 +150,6 @@
         <option value="$PROJECT_DIR$/Data/src/main/java/dev/rodni/ru/data/model/ProjectEntity.kt" />
         <option value="$PROJECT_DIR$/Data/src/main/java/dev/rodni/ru/data/mapper/EntityMapper.kt" />
         <option value="$PROJECT_DIR$/Data/src/main/java/dev/rodni/ru/data/repository/ProjectsCache.kt" />
-        <option value="$PROJECT_DIR$/Data/src/main/java/dev/rodni/ru/data/repository/ProjectsRemote.kt" />
         <option value="$PROJECT_DIR$/Data/src/main/java/dev/rodni/ru/data/repository/ProjectsDataStore.kt" />
         <option value="$PROJECT_DIR$/Data/src/test/java/dev/rodni/ru/data/factory/DataFactory.kt" />
         <option value="$PROJECT_DIR$/Data/src/test/java/dev/rodni/ru/data/factory/ProjectFactory.kt" />
@@ -145,13 +165,15 @@
         <option value="$PROJECT_DIR$/Data/src/test/java/dev/rodni/ru/data/store/ProjectsRemoteDataStoreTest.kt" />
         <option value="$PROJECT_DIR$/dependencies.gradle" />
         <option value="$PROJECT_DIR$/Remote/build.gradle" />
-        <option value="$PROJECT_DIR$/Remote/src/main/java/dev/rodni/ru/remote/model/ProjectModel.kt" />
         <option value="$PROJECT_DIR$/Remote/src/main/java/dev/rodni/ru/remote/model/OwnerModel.kt" />
         <option value="$PROJECT_DIR$/Remote/src/main/java/dev/rodni/ru/remote/model/ProjectsReponseModel.kt" />
         <option value="$PROJECT_DIR$/Remote/src/main/java/dev/rodni/ru/remote/service/GithubTrendingService.kt" />
         <option value="$PROJECT_DIR$/Remote/src/main/java/dev/rodni/ru/remote/service/GithubTrendingServiceFactory.kt" />
         <option value="$PROJECT_DIR$/Remote/src/main/java/dev/rodni/ru/remote/mapper/ModelMapper.kt" />
         <option value="$PROJECT_DIR$/Remote/src/main/java/dev/rodni/ru/remote/mapper/ProjectsResponseModelMapper.kt" />
+        <option value="$PROJECT_DIR$/Remote/src/main/java/dev/rodni/ru/remote/model/ProjectModel.kt" />
+        <option value="$PROJECT_DIR$/Data/src/main/java/dev/rodni/ru/data/repository/ProjectsRemote.kt" />
+        <option value="$PROJECT_DIR$/Remote/src/main/java/dev/rodni/ru/remote/ProjectsRemoteImpl.kt" />
       </list>
     </option>
   </component>
@@ -217,16 +239,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="remote" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RxJCleanArKT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RxJCleanArKT" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="Remote" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="remote" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -624,7 +636,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568153231842</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="created mapper for project's models to pass into data layer's project entity. also added id field into ProjectModel data class into remote layer.">
+      <created>1568212805161</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1568212805161</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -692,7 +711,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="the first use case inside the domain layer written" />
     <MESSAGE value="get bookmarked projects use case" />
     <MESSAGE value="changed domain's interactor structure." />
     <MESSAGE value="bookmark with params use case." />
@@ -717,19 +735,10 @@
     <MESSAGE value="models for remote layer module." />
     <MESSAGE value="factory for github api service done." />
     <MESSAGE value="test nothing broken now." />
-    <option name="LAST_COMMIT_MESSAGE" value="test nothing broken now." />
+    <MESSAGE value="created mapper for project's models to pass into data layer's project entity. also added id field into ProjectModel data class into remote layer." />
+    <option name="LAST_COMMIT_MESSAGE" value="created mapper for project's models to pass into data layer's project entity. also added id field into ProjectModel data class into remote layer." />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Domain/src/main/java/dev/rodni/ru/domain/interactor/ObservableUseCase.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="18" column="68" selection-start-line="18" selection-start-column="68" selection-end-line="18" selection-end-column="68" />
-          <folding>
-            <element signature="e#40#312#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Domain/src/main/java/dev/rodni/ru/domain/MyClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -868,16 +877,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/src/main/java/dev/rodni/ru/data/repository/ProjectsRemote.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
-          <folding>
-            <element signature="e#38#114#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1056,24 +1055,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Remote/src/main/java/dev/rodni/ru/remote/model/ProjectModel.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Remote/src/main/java/dev/rodni/ru/remote/model/OwnerModel.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Remote/src/main/java/dev/rodni/ru/remote/model/ProjectsReponseModel.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="62" lean-forward="true" selection-start-line="6" selection-start-column="62" selection-end-line="6" selection-end-column="62" />
         </state>
       </provider>
     </entry>
@@ -1115,12 +1100,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Remote/src/main/java/dev/rodni/ru/remote/model/ProjectModel.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Remote/src/main/java/dev/rodni/ru/remote/mapper/ProjectsResponseModelMapper.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        <state relative-caret-position="102">
+          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
           <folding>
             <element signature="e#36#126#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/src/main/java/dev/rodni/ru/data/repository/ProjectsRemote.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+          <folding>
+            <element signature="e#38#114#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Remote/src/main/java/dev/rodni/ru/remote/model/ProjectsReponseModel.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Remote/src/main/java/dev/rodni/ru/remote/ProjectsRemoteImpl.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="31" column="53" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="53" />
+          <folding>
+            <element signature="e#29#182#0" expanded="true" />
           </folding>
         </state>
       </provider>

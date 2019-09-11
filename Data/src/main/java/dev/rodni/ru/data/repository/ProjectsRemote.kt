@@ -4,9 +4,13 @@ import dev.rodni.ru.data.model.ProjectEntity
 
 import io.reactivex.Observable
 
-//remote level
+/**
+ * remote layer data fetch interface
+ */
 interface ProjectsRemote {
 
-    //fetch projects from the github by internet
+    /**
+     * fetch projects from the github by internet
+     */
     fun getProjects(): Observable<List<ProjectEntity>>
 }
