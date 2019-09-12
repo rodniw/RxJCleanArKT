@@ -26,8 +26,8 @@ open class ProjectsCacheDataStore @Inject constructor(
             .andThen(projectsCache.setLastCacheTime(System.currentTimeMillis()))
     }
 
-    override fun clearProjects(): Completable {
-        return projectsCache.clearProjects()
+    override fun clearProjects(projects: List<ProjectEntity>): Completable {
+        return projectsCache.clearProjects(projects)
     }
 
     override fun getBookmarkedProjects(): Observable<List<ProjectEntity>> {

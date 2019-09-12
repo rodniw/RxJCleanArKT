@@ -9,7 +9,7 @@ import io.reactivex.Single
 interface ProjectsCache {
 
     //to clear all the cache
-    fun clearProjects(): Completable
+    fun clearProjects(projects: List<ProjectEntity>): Completable
 
     //to save some projects
     fun saveProjects(projects: List<ProjectEntity>): Completable

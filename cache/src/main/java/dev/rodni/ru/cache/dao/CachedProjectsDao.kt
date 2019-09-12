@@ -1,9 +1,6 @@
 package dev.rodni.ru.cache.dao
 
-import androidx.room.Dao
-import androidx.room.Insert
-import androidx.room.OnConflictStrategy
-import androidx.room.Query
+import androidx.room.*
 import dev.rodni.ru.cache.db.ProjectConstants.DELETE_PROJECTS
 import dev.rodni.ru.cache.db.ProjectConstants.QUERY_BOOKMARKED_PROJECTS
 import dev.rodni.ru.cache.db.ProjectConstants.QUERY_PROJECTS
@@ -36,12 +33,9 @@ abstract class CachedProjectsDao {
 
     /**
      * this function deletes all the projects that are cached
-     *
-     * i made this by Query annotation not by special delete annotation in case of i want some changes
-     * in this implementation in the future
      */
-    @Query(DELETE_PROJECTS)
-    abstract fun deleteProjects()
+    @Delete
+    abstract fun deleteProjects(projects: List<CachedProject>)
 
     /**
      * this function fetching only bookmarked projects

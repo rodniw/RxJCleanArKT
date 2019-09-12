@@ -17,6 +17,7 @@ import javax.inject.Inject
  *
  * this class is open because of the testing
  */
+//todo resolve implementing another interface later
 open class ProjectsRemoteDataStore @Inject constructor(
     private val projectsRemote: ProjectsRemote
 ) : ProjectsDataStore{
@@ -43,7 +44,8 @@ open class ProjectsRemoteDataStore @Inject constructor(
         throw UnsupportedOperationException("this method isn t supported here")
     }
 
-    override fun clearProjects(): Completable {
+    override fun clearProjects(projects: List<ProjectEntity>): Completable {
         throw UnsupportedOperationException("this method isn t supported here")
     }
+
 }

@@ -19,5 +19,5 @@ interface ProjectsDataStore {
 
     fun saveProjects(projects: List<ProjectEntity>): Completable
 
-    fun clearProjects(): Completable
+    fun clearProjects(projects: List<ProjectEntity>): Completable
 }
