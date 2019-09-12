@@ -54,8 +54,8 @@
     <output-test url="file://$MODULE_DIR$/../../../Domain/build/classes/java/test" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../Domain">
-      <sourceFolder url="file://$MODULE_DIR$/../../../Domain/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../../Domain/src/main/kotlin" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../Domain/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../../Domain/src/main/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/../../../Domain/src/test/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../../Domain/src/test/kotlin" isTestSource="true" />
