@@ -7,7 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab578ab6-be02-4706-bafe-d56848b09136" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cache/src/main/java/dev/rodni/ru/cache/model/Config.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/src/main/java/dev/rodni/ru/cache/dao/ConfigDao.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/src/main/java/dev/rodni/ru/cache/db/AppDatabase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/cache/src/main/java/dev/rodni/ru/cache/db/AppDatabase.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -44,14 +46,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cache/src/main/java/dev/rodni/ru/cache/model/Config.kt">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cache/src/main/java/dev/rodni/ru/cache/dao/ConfigDao.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+            <state relative-caret-position="425">
+              <caret line="25" column="15" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
               <folding>
-                <element signature="e#34#93#0" expanded="true" />
+                <element signature="e#32#196#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cache/src/main/java/dev/rodni/ru/cache/db/AppDatabase.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -62,9 +73,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Interface" />
+        <option value="Kotlin File" />
         <option value="Kotlin Object" />
         <option value="Kotlin Class" />
-        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -74,9 +85,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Domain/build.gradle" />
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/Domain/src/test/java/dev/rodni/ru/domain/interactor/browse/GetProjectsTest.kt" />
         <option value="$PROJECT_DIR$/Domain/src/test/java/dev/rodni/ru/domain/interactor/bookmark/GetBookmarkProjectsTest.kt" />
         <option value="$PROJECT_DIR$/Domain/src/main/java/dev/rodni/ru/domain/interactor/bookmarked/BookmarkProject.kt" />
         <option value="$PROJECT_DIR$/Domain/src/test/java/dev/rodni/ru/domain/interactor/bookmark/BookmarkProjectTest.kt" />
@@ -124,7 +132,10 @@
         <option value="$PROJECT_DIR$/cache/src/main/java/dev/rodni/ru/cache/model/CachedProject.kt" />
         <option value="$PROJECT_DIR$/cache/src/main/java/dev/rodni/ru/cache/db/ProjectConstants.kt" />
         <option value="$PROJECT_DIR$/cache/src/main/java/dev/rodni/ru/cache/dao/CachedProjectsDao.kt" />
+        <option value="$PROJECT_DIR$/cache/src/main/java/dev/rodni/ru/cache/db/ConfigConstants.kt" />
         <option value="$PROJECT_DIR$/cache/src/main/java/dev/rodni/ru/cache/model/Config.kt" />
+        <option value="$PROJECT_DIR$/cache/src/main/java/dev/rodni/ru/cache/dao/ConfigDao.kt" />
+        <option value="$PROJECT_DIR$/cache/src/main/java/dev/rodni/ru/cache/db/AppDatabase.kt" />
       </list>
     </option>
   </component>
@@ -665,7 +676,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568283014809</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="config entity and constants.">
+      <created>1568283425322</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1568283425322</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -733,7 +751,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="oooops. simply changed method's names after stupid copy pasting." />
     <MESSAGE value="created Data layer module." />
     <MESSAGE value="entity and entity's mapper for data layer created." />
     <MESSAGE value="cache and remote data fetching interfaces inside the data layer." />
@@ -758,23 +775,10 @@
     <MESSAGE value="created cache project entity to store projects inside the db." />
     <MESSAGE value="App Database created. the main db class for this app." />
     <MESSAGE value="project's dao created." />
-    <option name="LAST_COMMIT_MESSAGE" value="project's dao created." />
+    <MESSAGE value="config entity and constants." />
+    <option name="LAST_COMMIT_MESSAGE" value="config entity and constants." />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Domain/src/test/java/dev/rodni/ru/domain/interactor/browse/GetProjectsTest.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.50/8ac406cf33e942265c4abb33ee0acdee79292dd6/kotlin-stdlib-common-1.3.50-sources.jar!/kotlin/util/Tuples.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="26" column="15" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Data/src/main/java/dev/rodni/ru/data/repository/ProjectsDataStore.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1106,23 +1110,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cache/src/main/java/dev/rodni/ru/cache/db/ProjectConstants.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cache/src/main/java/dev/rodni/ru/cache/db/AppDatabase.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-          <folding>
-            <element signature="e#31#198#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cache/src/main/java/dev/rodni/ru/cache/model/CachedProject.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -1146,10 +1133,41 @@
     <entry file="file://$PROJECT_DIR$/cache/src/main/java/dev/rodni/ru/cache/model/Config.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
           <folding>
-            <element signature="e#34#93#0" expanded="true" />
+            <element signature="e#34#138#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cache/src/main/java/dev/rodni/ru/cache/db/ConfigConstants.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cache/src/main/java/dev/rodni/ru/cache/db/ProjectConstants.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cache/src/main/java/dev/rodni/ru/cache/dao/ConfigDao.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="15" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
+          <folding>
+            <element signature="e#32#196#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cache/src/main/java/dev/rodni/ru/cache/db/AppDatabase.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
         </state>
       </provider>
     </entry>

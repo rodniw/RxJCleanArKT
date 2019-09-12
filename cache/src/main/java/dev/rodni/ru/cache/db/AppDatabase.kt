@@ -4,14 +4,23 @@ import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
+import dev.rodni.ru.cache.dao.CachedProjectsDao
+import dev.rodni.ru.cache.dao.ConfigDao
 import dev.rodni.ru.cache.model.CachedProject
+import dev.rodni.ru.cache.model.Config
 import javax.inject.Inject
 
 /**
  * database of this app
  */
-@Database(entities = [CachedProject::class], version = 1)
+@Database(entities = [CachedProject::class, Config::class], version = 1)
 abstract class AppDatabase @Inject constructor(): RoomDatabase() {
+
+    /**
+     * setting up daos to make them accessable from the app database
+     */
+    abstract fun cachedProjectsDao(): CachedProjectsDao
+    abstract fun confidDao(): ConfigDao
 
     companion object {
 
