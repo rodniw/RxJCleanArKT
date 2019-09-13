@@ -9,7 +9,7 @@ import javax.inject.Inject
  * @see ProjectView
  * which convert incoming pojo into the project view
  */
-class ProjectViewMapper @Inject constructor(): Mapper<ProjectView, Project> {
+open class ProjectViewMapper @Inject constructor(): Mapper<ProjectView, Project> {
 
     /**
      * maps incoming pojo into the view
