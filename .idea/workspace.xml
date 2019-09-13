@@ -6,11 +6,8 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab578ab6-be02-4706-bafe-d56848b09136" name="Default Changelist" comment="created BrowseBookmarkedProjectsViewModel for fragment which will show a list of bookmarked projects.">
-      <change afterPath="$PROJECT_DIR$/Presentation/src/test/java/dev/rodni/ru/presentation/PlaceHolder.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Presentation/src/test/java/dev/rodni/ru/presentation/factory/DataFactory.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Presentation/src/test/java/dev/rodni/ru/presentation/factory/ProjectFactory.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presentation/src/test/java/dev/rodni/ru/presentation/ExampleUnitTest.kt" beforeDir="false" />
+    <list default="true" id="ab578ab6-be02-4706-bafe-d56848b09136" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Presentation/src/test/java/dev/rodni/ru/presentation/mapper/ProjectViewMapperTest.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -69,10 +66,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Presentation/src/test/java/dev/rodni/ru/presentation/factory/ProjectFactory.kt">
+        <entry file="file://$PROJECT_DIR$/Presentation/src/test/java/dev/rodni/ru/presentation/mapper/ProjectViewMapperTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+            <state relative-caret-position="408">
+              <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+              <folding>
+                <element signature="e#42#183#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -83,9 +83,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Interface" />
-        <option value="Kotlin Class" />
         <option value="Kotlin File" />
         <option value="Kotlin Object" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -95,8 +95,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Remote/src/main/java/dev/rodni/ru/remote/model/OwnerModel.kt" />
-        <option value="$PROJECT_DIR$/Remote/src/main/java/dev/rodni/ru/remote/model/ProjectsReponseModel.kt" />
         <option value="$PROJECT_DIR$/Remote/src/main/java/dev/rodni/ru/remote/service/GithubTrendingService.kt" />
         <option value="$PROJECT_DIR$/Remote/src/main/java/dev/rodni/ru/remote/service/GithubTrendingServiceFactory.kt" />
         <option value="$PROJECT_DIR$/Remote/src/main/java/dev/rodni/ru/remote/mapper/ModelMapper.kt" />
@@ -146,6 +144,8 @@
         <option value="$PROJECT_DIR$/Presentation/src/main/java/dev/rodni/ru/presentation/viewmodel/BrowseProjectsViewModel.kt" />
         <option value="$PROJECT_DIR$/Presentation/src/main/java/dev/rodni/ru/presentation/viewmodel/BrowseBookmarkedProjectsViewModel.kt" />
         <option value="$PROJECT_DIR$/Presentation/src/test/java/dev/rodni/ru/presentation/factory/DataFactory.kt" />
+        <option value="$PROJECT_DIR$/Presentation/src/test/java/dev/rodni/ru/presentation/factory/ProjectFactory.kt" />
+        <option value="$PROJECT_DIR$/Presentation/src/test/java/dev/rodni/ru/presentation/mapper/ProjectViewMapperTest.kt" />
       </list>
     </option>
   </component>
@@ -285,7 +285,7 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="presentation" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -323,21 +323,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Android App.app">
-    <configuration name="ProjectMapperTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Data" />
+  <component name="RunManager" selected="Android JUnit.ProjectViewMapperTest">
+    <configuration name="ProjectViewMapperTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Presentation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.rodni.ru.data.mapper.*" />
+          <option name="PATTERN" value="dev.rodni.ru.presentation.mapper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="dev.rodni.ru.data.mapper" />
-      <option name="MAIN_CLASS_NAME" value="dev.rodni.ru.data.mapper.ProjectMapperTest" />
+      <option name="PACKAGE_NAME" value="dev.rodni.ru.presentation.mapper" />
+      <option name="MAIN_CLASS_NAME" value="dev.rodni.ru.presentation.mapper.ProjectViewMapperTest" />
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
-        <option name="Make" enabled="true" />
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="ProjectsDataRepositoryTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
@@ -464,6 +464,11 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Android JUnit.ProjectViewMapperTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -812,7 +817,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568378728171</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="created data factories for testing the presentation layer.">
+      <created>1568379197092</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1568379197092</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -880,7 +892,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ProjectsDataRepository tests created and passed." />
     <MESSAGE value="created new Remote module which will handle retrofit requests to an api." />
     <MESSAGE value="models for remote layer module." />
     <MESSAGE value="factory for github api service done." />
@@ -905,19 +916,10 @@
     <MESSAGE value="presentation layer's model created." />
     <MESSAGE value="created the view model for a future fragment in which i will display list of trending projects." />
     <MESSAGE value="created BrowseBookmarkedProjectsViewModel for fragment which will show a list of bookmarked projects." />
-    <option name="LAST_COMMIT_MESSAGE" value="created BrowseBookmarkedProjectsViewModel for fragment which will show a list of bookmarked projects." />
+    <MESSAGE value="created data factories for testing the presentation layer." />
+    <option name="LAST_COMMIT_MESSAGE" value="created data factories for testing the presentation layer." />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Remote/src/test/java/dev/rodni/ru/remote/mapper/ProjectsResponseModelMapperTest.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-          <folding>
-            <element signature="e#36#208#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Remote/src/test/java/dev/rodni/ru/remote/factory/ProjectModelFactory.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
@@ -1267,6 +1269,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Presentation/src/test/java/dev/rodni/ru/presentation/factory/ProjectFactory.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="50" lean-forward="true" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
+          <folding>
+            <element signature="e#43#134#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Presentation/src/main/java/dev/rodni/ru/presentation/viewmodel/BrowseBookmarkedProjectsViewModel.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -1277,10 +1289,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Presentation/src/test/java/dev/rodni/ru/presentation/factory/ProjectFactory.kt">
+    <entry file="file://$PROJECT_DIR$/Presentation/src/test/java/dev/rodni/ru/presentation/mapper/ProjectViewMapperTest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        <state relative-caret-position="408">
+          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+          <folding>
+            <element signature="e#42#183#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
