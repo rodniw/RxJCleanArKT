@@ -41,6 +41,7 @@ dependencies {
     implementation project(':Data')
     implementation project(':Remote')
     implementation project(':cache')
+    implementation project(':Domain')
 
     implementation mobileUiDependencies.javaxAnnotation
 
@@ -62,7 +63,7 @@ dependencies {
 
     implementation presentationDependencies.archRuntime
     implementation presentationDependencies.archExtensions
-    implementation "android.arch.persistence.room:rxjava2:2.1.0"
+    implementation "android.arch.persistence.room:rxjava2:2.2.0"
     kapt presentationDependencies.archCompiler
 
     testImplementation mobileUiTestDependencies.kotlinJUnit
