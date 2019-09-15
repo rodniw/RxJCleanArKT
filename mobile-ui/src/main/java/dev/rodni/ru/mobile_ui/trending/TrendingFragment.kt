@@ -9,7 +9,6 @@ import com.xwray.groupie.GroupAdapter
 import com.xwray.groupie.ViewHolder
 import dagger.android.support.DaggerFragment
 import dev.rodni.ru.mobile_ui.R
-import dev.rodni.ru.mobile_ui.model.Project
 import kotlinx.android.synthetic.main.fragment_trending.*
 import timber.log.Timber
 
