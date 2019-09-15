@@ -2,6 +2,7 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 apply plugin: 'kotlin-kapt'
+apply plugin: 'androidx.navigation.safeargs'
 
 android {
     def globalConfiguration = rootProject.extensions.getByName("ext")
@@ -60,6 +61,9 @@ dependencies {
     implementation mobileUiDependencies.glide
     implementation mobileUiDependencies.dagger
     implementation mobileUiDependencies.daggerSupport
+    implementation mobileUiDependencies.navigationFragment
+    implementation mobileUiDependencies.navigationUI
+    implementation mobileUiDependencies.materialDesign
 
     implementation presentationDependencies.archRuntime
     implementation presentationDependencies.archExtensions
