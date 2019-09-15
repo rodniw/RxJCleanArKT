@@ -29,6 +29,7 @@ ext {
     archCompVersion = '2.1.0'
     navigationVersion = '2.1.0-alpha05'
     materialDesign = '1.1.0-alpha07'
+    groupie = '2.3.0'
 
     //Testing
     jUnitVersion = '4.12'
@@ -165,7 +166,9 @@ ext {
             roomRxJava:         "android.arch.persistence.room:rxjava2:${archCompVersion}",
             navigationFragment: "androidx.navigation:navigation-fragment-ktx:${navigationVersion}",
             navigationUI:       "androidx.navigation:navigation-ui-ktx:${navigationVersion}",
-            materialDesign:     "com.google.android.material:material:${materialDesign}"
+            materialDesign:     "com.google.android.material:material:${materialDesign}",
+            groupieCore:        "com.xwray:groupie:${groupie}",
+            groupieKotlin:      "com.xwray:groupie-kotlin-android-extensions:${groupie}"
     ]
 
     mobileUiTestDependencies = [

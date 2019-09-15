@@ -27,9 +27,17 @@ android {
         }
     }
 
+    dataBinding {
+        enabled = true
+    }
+
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    androidExtensions {
+        experimental = true
     }
 }
 
@@ -64,6 +72,8 @@ dependencies {
     implementation mobileUiDependencies.navigationFragment
     implementation mobileUiDependencies.navigationUI
     implementation mobileUiDependencies.materialDesign
+    implementation mobileUiDependencies.groupieCore
+    implementation mobileUiDependencies.groupieKotlin
 
     implementation presentationDependencies.archRuntime
     implementation presentationDependencies.archExtensions
