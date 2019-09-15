@@ -7,7 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab578ab6-be02-4706-bafe-d56848b09136" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mobile-ui/src/main/java/dev/rodni/ru/mobile_ui/model/Project.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile-ui/src/main/java/dev/rodni/ru/mobile_ui/mapper/ProjectViewMapper.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile-ui/src/main/java/dev/rodni/ru/mobile_ui/mapper/ViewMapper.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -52,11 +54,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mobile-ui/src/main/java/dev/rodni/ru/mobile_ui/model/Project.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+            <state relative-caret-position="51">
+              <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mobile-ui/src/main/java/dev/rodni/ru/mobile_ui/mapper/ViewMapper.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mobile-ui/src/main/java/dev/rodni/ru/mobile_ui/mapper/ProjectViewMapper.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+              <folding>
+                <element signature="e#39#160#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -79,8 +102,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Remote/src/test/java/dev/rodni/ru/remote/ProjectsRemoteImplTest.kt" />
-        <option value="$PROJECT_DIR$/Remote/src/main/java/dev/rodni/ru/remote/mapper/ProjectsResponseModelMapper.kt" />
         <option value="$PROJECT_DIR$/cache/build.gradle" />
         <option value="$PROJECT_DIR$/Data/build.gradle" />
         <option value="$PROJECT_DIR$/cache/src/androidTest/java/dev/rodni/ru/cache/ExampleInstrumentedTest.kt" />
@@ -130,6 +151,8 @@
         <option value="$PROJECT_DIR$/mobile-ui/build.gradle" />
         <option value="$PROJECT_DIR$/mobile-ui/src/main/java/dev/rodni/ru/mobile_ui/MyApplication.kt" />
         <option value="$PROJECT_DIR$/mobile-ui/src/main/java/dev/rodni/ru/mobile_ui/model/Project.kt" />
+        <option value="$PROJECT_DIR$/mobile-ui/src/main/java/dev/rodni/ru/mobile_ui/mapper/ViewMapper.kt" />
+        <option value="$PROJECT_DIR$/mobile-ui/src/main/java/dev/rodni/ru/mobile_ui/mapper/ProjectViewMapper.kt" />
       </list>
     </option>
   </component>
@@ -203,7 +226,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="mobile_ui" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="RxJCleanArKT" type="b2602c69:ProjectViewProjectNode" />
@@ -462,13 +485,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1567958851793</updated>
-    </task>
-    <task id="LOCAL-00008" summary="bookmark with params use case.">
-      <created>1568043092097</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1568043092097</updated>
     </task>
     <task id="LOCAL-00009" summary="unbookmark use case inside the domain layer.">
       <created>1568059383776</created>
@@ -806,7 +822,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568552753143</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="project model for the ui layer.">
+      <created>1568553276537</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1568553276537</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -874,7 +897,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="created and passed test for project response model mapper" />
     <MESSAGE value="created and passed tests for ProjectsRemoteImpl." />
     <MESSAGE value="created cache layer's module where i will save data to room database. so, it's for data layer." />
     <MESSAGE value="created cache project entity to store projects inside the db." />
@@ -899,29 +921,10 @@
     <MESSAGE value="start work with ui layer. created post execution thread." />
     <MESSAGE value="created application class." />
     <MESSAGE value="set up di of the ui." />
-    <option name="LAST_COMMIT_MESSAGE" value="set up di of the ui." />
+    <MESSAGE value="project model for the ui layer." />
+    <option name="LAST_COMMIT_MESSAGE" value="project model for the ui layer." />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cache/src/main/java/dev/rodni/ru/cache/model/CachedProject.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
-          <folding>
-            <element signature="e#34#171#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cache/src/main/java/dev/rodni/ru/cache/model/Config.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-          <folding>
-            <element signature="e#34#138#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cache/src/main/java/dev/rodni/ru/cache/db/ConfigConstants.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1275,8 +1278,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mobile-ui/src/main/java/dev/rodni/ru/mobile_ui/model/Project.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+        <state relative-caret-position="51">
+          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile-ui/src/main/java/dev/rodni/ru/mobile_ui/mapper/ViewMapper.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile-ui/src/main/java/dev/rodni/ru/mobile_ui/mapper/ProjectViewMapper.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+          <folding>
+            <element signature="e#39#160#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
