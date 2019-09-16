@@ -1,10 +1,12 @@
 package dev.rodni.ru.mobile_ui.di.module
 
 import androidx.lifecycle.ViewModel
+import androidx.lifecycle.ViewModelProvider
 import dagger.Binds
 import dagger.MapKey
 import dagger.Module
 import dagger.multibindings.IntoMap
+import dev.rodni.ru.mobile_ui.di.ViewModelFactory
 import dev.rodni.ru.presentation.viewmodel.BrowseBookmarkedProjectsViewModel
 import dev.rodni.ru.presentation.viewmodel.BrowseProjectsViewModel
 import kotlin.reflect.KClass
@@ -30,6 +32,12 @@ abstract class PresentationModule {
     @IntoMap
     @ViewModelKey(BrowseBookmarkedProjectsViewModel::class)
     abstract fun bindBrowseBookmarkedProjectsViewModel(viewModel: BrowseBookmarkedProjectsViewModel): ViewModel
+
+    /**
+     * provides classic view model's factory
+     */
+    @Binds
+    abstract fun bindViewModelFactory(factory: ViewModelFactory): ViewModelProvider.Factory
 }
 
 /**
