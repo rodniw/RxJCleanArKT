@@ -4,7 +4,7 @@ import com.nhaarman.mockito_kotlin.any
 import com.nhaarman.mockito_kotlin.whenever
 import dev.rodni.ru.domain.executor.PostExecutionThread
 import dev.rodni.ru.domain.interactor.bookmarked.UnbookmarkProject
-import dev.rodni.ru.domain.repository.ProjectsRepository
+import dev.rodni.ru.domain.repository.TrendingProjectsRepository
 import dev.rodni.ru.domain.test.ProjectDataFactory
 import io.reactivex.Completable
 import org.junit.Before
@@ -16,14 +16,14 @@ import org.mockito.MockitoAnnotations
 class UnbookmarkedProjectTest {
 
     private lateinit var unbookmarkProject: UnbookmarkProject
-    @Mock lateinit var projectsRepository: ProjectsRepository
+    @Mock lateinit var trendingProjectsRepository: TrendingProjectsRepository
     @Mock lateinit var executionThread: PostExecutionThread
 
     //setting up the constructor's dependencies
     @Before
     fun setup() {
         MockitoAnnotations.initMocks(this)
-        unbookmarkProject = UnbookmarkProject(projectsRepository, executionThread)
+        unbookmarkProject = UnbookmarkProject(trendingProjectsRepository, executionThread)
     }
 
     //needs parameters inside buildUseCase method
@@ -43,7 +43,7 @@ class UnbookmarkedProjectTest {
 
     //checking that calling to the repo returns an observable
     private fun stubUnbookmarkProject(completable: Completable) {
-        whenever(projectsRepository.unbookmarkProject(any()))
+        whenever(trendingProjectsRepository.unbookmarkProject(any()))
             .thenReturn(completable)
     }
 }

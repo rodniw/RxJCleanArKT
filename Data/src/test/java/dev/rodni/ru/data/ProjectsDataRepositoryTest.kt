@@ -21,7 +21,7 @@ import org.junit.runners.JUnit4
 
 /**
  * this class test
- * @see ProjectsDataRepository
+ * @see TrendingProjectsDataRepository
  */
 @RunWith(JUnit4::class)
 class ProjectsDataRepositoryTest {
@@ -33,7 +33,7 @@ class ProjectsDataRepositoryTest {
     private val factory = mock<ProjectsDataStoreFactory>()
     private val store = mock<ProjectsDataStore>()
     private val cache = mock<ProjectsCache>()
-    private val repository = ProjectsDataRepository(mapper, cache, factory)
+    private val repository = TrendingProjectsDataRepository(mapper, cache, factory)
 
     @Before
     fun setup() {

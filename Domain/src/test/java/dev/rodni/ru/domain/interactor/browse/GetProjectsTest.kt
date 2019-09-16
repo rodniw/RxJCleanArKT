@@ -2,9 +2,8 @@ package dev.rodni.ru.domain.interactor.browse
 
 import com.nhaarman.mockito_kotlin.whenever
 import dev.rodni.ru.domain.executor.PostExecutionThread
-import dev.rodni.ru.domain.interactor.browse.GetProjects
 import dev.rodni.ru.domain.model.Project
-import dev.rodni.ru.domain.repository.ProjectsRepository
+import dev.rodni.ru.domain.repository.TrendingProjectsRepository
 import dev.rodni.ru.domain.test.ProjectDataFactory
 import io.reactivex.Observable
 import org.junit.Before
@@ -16,14 +15,14 @@ class GetProjectsTest {
 
     private lateinit var getProjects: GetProjects
     //mocking constr parameters
-    @Mock lateinit var projectsRepository: ProjectsRepository
+    @Mock lateinit var trendingProjectsRepository: TrendingProjectsRepository
     @Mock lateinit var postExecutionThread: PostExecutionThread
 
     @Before
     fun setup() {
         //setting up constructor's dependencies
         MockitoAnnotations.initMocks(this)
-        getProjects = GetProjects(projectsRepository, postExecutionThread)
+        getProjects = GetProjects(trendingProjectsRepository, postExecutionThread)
     }
 
     @Test
@@ -43,7 +42,7 @@ class GetProjectsTest {
 
     //checking that calling to the repo returns an observable
     private fun stubGetProjects(observable: Observable<List<Project>>) {
-        whenever(projectsRepository.getProjects())
+        whenever(trendingProjectsRepository.getProjects())
             .thenReturn(observable)
     }
 }

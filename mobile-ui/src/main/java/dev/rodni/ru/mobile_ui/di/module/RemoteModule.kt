@@ -4,7 +4,6 @@ import dagger.Binds
 import dagger.Module
 import dagger.Provides
 import dev.rodni.ru.data.repository.ProjectsRemote
-import dev.rodni.ru.mobile_ui.BuildConfig
 import dev.rodni.ru.remote.ProjectsRemoteImpl
 import dev.rodni.ru.remote.service.GithubTrendingService
 import dev.rodni.ru.remote.service.GithubTrendingServiceFactory
@@ -20,7 +19,7 @@ abstract class RemoteModule {
         @Provides
         @JvmStatic
         fun provideGithubService(): GithubTrendingService {
-            return GithubTrendingServiceFactory.makeGithubTrendingService(BuildConfig.DEBUG)
+            return GithubTrendingServiceFactory.makeGithubTrendingService(true)
         }
     }
 
