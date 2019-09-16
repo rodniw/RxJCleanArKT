@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Github Client</string>
+    <string name="app_name">Github Client Clean Architecture</string>
 
     <string name="title_activity_main">Trending projects</string>
 

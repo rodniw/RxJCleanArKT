@@ -19,7 +19,7 @@ private const val BASE_URL = "https://api.github.com/"
 /**
  * common factory for GithubTrendingService
  */
-class GithubTrendingServiceFactory {
+object GithubTrendingServiceFactory {
 
     /**
      * combine creation of a retrofit instance, ok http client and logging interceptor in one place

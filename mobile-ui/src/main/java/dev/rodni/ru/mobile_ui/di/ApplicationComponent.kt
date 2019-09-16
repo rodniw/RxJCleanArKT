@@ -5,10 +5,7 @@ import dagger.BindsInstance
 import dagger.Component
 import dagger.android.AndroidInjectionModule
 import dev.rodni.ru.mobile_ui.MyApplication
-import dev.rodni.ru.mobile_ui.di.module.ActivityBuilderModule
-import dev.rodni.ru.mobile_ui.di.module.ApplicationModule
-import dev.rodni.ru.mobile_ui.di.module.PresentationModule
-import dev.rodni.ru.mobile_ui.di.module.UiModule
+import dev.rodni.ru.mobile_ui.di.module.*
 import javax.inject.Singleton
 
 /**
@@ -20,6 +17,9 @@ import javax.inject.Singleton
     ApplicationModule::class,
     UiModule::class,
     PresentationModule::class,
+    DataModule::class,
+    CacheModule::class,
+    RemoteModule::class,
     ActivityBuilderModule::class
 ])
 interface ApplicationComponent {

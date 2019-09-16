@@ -1,6 +1,7 @@
 package dev.rodni.ru.domain.repository
 
 import dev.rodni.ru.domain.model.Project
+import dev.rodni.ru.domain.model.User
 import io.reactivex.Completable
 import io.reactivex.Observable
 
@@ -17,4 +18,14 @@ interface ProjectsRepository {
 
     //this will show list of saved projects
     fun getBookmarkedProjects(): Observable<List<Project>>
+
+    /**
+     * fetching projects with search response
+     */
+    fun searchProjects(): Observable<List<Project>>
+
+    /**
+     * fetching list of searched users
+     */
+    fun searchUsers(): Observable<List<User>>
 }
