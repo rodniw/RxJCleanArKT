@@ -6,102 +6,8 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab578ab6-be02-4706-bafe-d56848b09136" name="Default Changelist" comment="added layer's modules into ui layer. with the mistake but dont look at this.">
-      <change afterPath="$PROJECT_DIR$/Domain/build/.transforms/92094548f25a0867c11f59cc02fed80b.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/classes/kotlin/main/META-INF/Domain.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/classes/kotlin/main/dev/rodni/ru/domain/executor/PostExecutionThread.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/classes/kotlin/main/dev/rodni/ru/domain/interactor/CompletableUseCase.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/classes/kotlin/main/dev/rodni/ru/domain/interactor/ObservableUseCase.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/classes/kotlin/main/dev/rodni/ru/domain/interactor/bookmarked/BookmarkProject$Params$Companion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/classes/kotlin/main/dev/rodni/ru/domain/interactor/bookmarked/BookmarkProject$Params.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/classes/kotlin/main/dev/rodni/ru/domain/interactor/bookmarked/BookmarkProject.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/classes/kotlin/main/dev/rodni/ru/domain/interactor/bookmarked/GetBookmarkedProjects.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/classes/kotlin/main/dev/rodni/ru/domain/interactor/bookmarked/UnbookmarkProject$Params$Companion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/classes/kotlin/main/dev/rodni/ru/domain/interactor/bookmarked/UnbookmarkProject$Params.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/classes/kotlin/main/dev/rodni/ru/domain/interactor/bookmarked/UnbookmarkProject.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/classes/kotlin/main/dev/rodni/ru/domain/interactor/browse/GetProjects.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/classes/kotlin/main/dev/rodni/ru/domain/model/Project.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/classes/kotlin/main/dev/rodni/ru/domain/repository/ProjectsRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/kotlin/Domainjar-classes.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/kotlin/compileKotlin/build-history.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.keystream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.keystream.len" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.len" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.values.at" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab_i" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab_i.len" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream.len" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.len" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i.len" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.len" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i.len" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream.len" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.len" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.values.at" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab_i" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab_i.len" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream.len" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.len" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab_i" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab_i.len" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/subtypes.tab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/subtypes.tab.keystream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/subtypes.tab.keystream.len" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/subtypes.tab.len" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/subtypes.tab.values.at" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/subtypes.tab_i" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/subtypes.tab_i.len" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/supertypes.tab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/supertypes.tab.keystream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/supertypes.tab.keystream.len" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/supertypes.tab.len" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/supertypes.tab.values.at" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/supertypes.tab_i" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/supertypes.tab_i.len" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/kotlin/compileKotlin/caches-jvm/lookups/counters.tab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.keystream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.keystream.len" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.len" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.values.at" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab_i" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab_i.len" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.keystream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.keystream.len" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.len" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.values.at" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab_i" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab_i.len" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.keystream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.keystream.len" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.len" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.values.at" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab_i" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab_i.len" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/kotlin/compileKotlin/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/libs/Domain.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/build/tmp/jar/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/src/main/java/dev/rodni/ru/domain/model/User.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile-ui/src/main/java/dev/rodni/ru/mobile_ui/di/module/CacheModule.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile-ui/src/main/java/dev/rodni/ru/mobile_ui/di/module/DataModule.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile-ui/src/main/java/dev/rodni/ru/mobile_ui/di/module/RemoteModule.kt" afterDir="false" />
+    <list default="true" id="ab578ab6-be02-4706-bafe-d56848b09136" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/mobile-ui/src/main/java/dev/rodni/ru/mobile_ui/glide/GithubAppGlideModule.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -114,14 +20,11 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/dev/rodni/ru/domain/MyClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/dev/rodni/ru/domain/repository/ProjectsRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/dev/rodni/ru/domain/repository/ProjectsRepository.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presentation/Presentation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/Presentation.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Remote/src/main/java/dev/rodni/ru/remote/service/GithubTrendingServiceFactory.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Remote/src/main/java/dev/rodni/ru/remote/service/GithubTrendingServiceFactory.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache/cache.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cache/cache.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile-ui/mobile-ui.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mobile-ui/mobile-ui.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile-ui/src/main/java/dev/rodni/ru/mobile_ui/di/ApplicationComponent.kt" beforeDir="false" afterPath="$PROJECT_DIR$/mobile-ui/src/main/java/dev/rodni/ru/mobile_ui/di/ApplicationComponent.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile-ui/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mobile-ui/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/build/kotlin/compileKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/build/kotlin/compileKotlin/build-history.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/build/kotlin/compileKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/build/kotlin/compileKotlin/last-build.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/build/libs/Domain.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/build/libs/Domain.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-ui/src/main/java/dev/rodni/ru/mobile_ui/trending/ProjectItem.kt" beforeDir="false" afterPath="$PROJECT_DIR$/mobile-ui/src/main/java/dev/rodni/ru/mobile_ui/trending/ProjectItem.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-ui/src/main/java/dev/rodni/ru/mobile_ui/trending/TrendingFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/mobile-ui/src/main/java/dev/rodni/ru/mobile_ui/trending/TrendingFragment.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -157,53 +60,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mobile-ui/src/main/java/dev/rodni/ru/mobile_ui/di/module/CacheModule.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
-              <caret line="29" column="77" selection-start-line="29" selection-start-column="77" selection-end-line="29" selection-end-column="77" />
-              <folding>
-                <element signature="e#42#230#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mobile-ui/src/main/java/dev/rodni/ru/mobile_ui/di/module/RemoteModule.kt">
+        <entry file="file://$PROJECT_DIR$/mobile-ui/src/main/java/dev/rodni/ru/mobile_ui/trending/TrendingFragment.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+            <state relative-caret-position="396">
+              <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
               <folding>
-                <element signature="e#42#314#0" expanded="true" />
+                <element signature="e#41#445#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Remote/src/main/java/dev/rodni/ru/remote/service/GithubTrendingServiceFactory.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mobile-ui/src/main/java/dev/rodni/ru/mobile_ui/di/ApplicationComponent.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Data/src/main/java/dev/rodni/ru/data/ProjectsDataRepository.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -215,10 +79,10 @@
       <list>
         <option value="Kotlin File" />
         <option value="Kotlin Object" />
-        <option value="Kotlin Interface" />
         <option value="layoutResourceFile_vertical" />
         <option value="resourceFile" />
         <option value="navigationResourceFile" />
+        <option value="Kotlin Interface" />
         <option value="Kotlin Class" />
       </list>
     </option>
@@ -229,10 +93,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Presentation/src/main/java/dev/rodni/ru/presentation/model/ProjectView.kt" />
-        <option value="$PROJECT_DIR$/Presentation/src/main/java/dev/rodni/ru/presentation/mapper/Mapper.kt" />
-        <option value="$PROJECT_DIR$/Presentation/src/main/java/dev/rodni/ru/presentation/viewmodel/BrowseBookmarkedProjectsViewModel.kt" />
-        <option value="$PROJECT_DIR$/Presentation/src/test/java/dev/rodni/ru/presentation/factory/DataFactory.kt" />
         <option value="$PROJECT_DIR$/Presentation/src/test/java/dev/rodni/ru/presentation/factory/ProjectFactory.kt" />
         <option value="$PROJECT_DIR$/Presentation/src/test/java/dev/rodni/ru/presentation/mapper/ProjectViewMapperTest.kt" />
         <option value="$PROJECT_DIR$/Presentation/src/main/java/dev/rodni/ru/presentation/mapper/ProjectViewMapper.kt" />
@@ -263,23 +123,27 @@
         <option value="$PROJECT_DIR$/mobile-ui/src/main/res/navigation/mobile_navigation.xml" />
         <option value="$PROJECT_DIR$/mobile-ui/src/main/java/dev/rodni/ru/mobile_ui/MainActivity.kt" />
         <option value="$PROJECT_DIR$/mobile-ui/src/main/java/dev/rodni/ru/mobile_ui/bookmarked/BookmarkedFragment.kt" />
-        <option value="$PROJECT_DIR$/mobile-ui/src/main/java/dev/rodni/ru/mobile_ui/trending/ProjectItem.kt" />
         <option value="$PROJECT_DIR$/mobile-ui/src/main/java/dev/rodni/ru/mobile_ui/di/module/ApplicationModule.kt" />
         <option value="$PROJECT_DIR$/mobile-ui/src/main/java/dev/rodni/ru/mobile_ui/di/module/UiModule.kt" />
         <option value="$PROJECT_DIR$/mobile-ui/src/main/java/dev/rodni/ru/mobile_ui/di/module/ActivityBuilderModule.kt" />
         <option value="$PROJECT_DIR$/mobile-ui/src/main/java/dev/rodni/ru/mobile_ui/di/module/FragmentBuilderModule.kt" />
         <option value="$PROJECT_DIR$/mobile-ui/build.gradle" />
-        <option value="$PROJECT_DIR$/mobile-ui/src/main/java/dev/rodni/ru/mobile_ui/trending/TrendingFragment.kt" />
         <option value="$PROJECT_DIR$/dependencies.gradle" />
         <option value="$PROJECT_DIR$/mobile-ui/src/main/java/dev/rodni/ru/mobile_ui/di/ViewModelFactory.kt" />
         <option value="$PROJECT_DIR$/mobile-ui/src/main/java/dev/rodni/ru/mobile_ui/di/module/DataModule.kt" />
         <option value="$PROJECT_DIR$/mobile-ui/src/main/java/dev/rodni/ru/mobile_ui/di/module/CacheModule.kt" />
         <option value="$PROJECT_DIR$/Remote/src/main/java/dev/rodni/ru/remote/service/GithubTrendingServiceFactory.kt" />
-        <option value="$PROJECT_DIR$/mobile-ui/src/main/java/dev/rodni/ru/mobile_ui/di/module/RemoteModule.kt" />
         <option value="$PROJECT_DIR$/mobile-ui/src/main/java/dev/rodni/ru/mobile_ui/di/ApplicationComponent.kt" />
         <option value="$PROJECT_DIR$/mobile-ui/src/main/java/dev/rodni/ru/mobile_ui/di/module/PresentationModule.kt" />
         <option value="$PROJECT_DIR$/mobile-ui/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/Domain/src/main/java/dev/rodni/ru/domain/repository/ProjectsRepository.kt" />
+        <option value="$PROJECT_DIR$/Domain/src/main/java/dev/rodni/ru/domain/repository/TrendingProjectsRepository.kt" />
+        <option value="$PROJECT_DIR$/Domain/src/main/java/dev/rodni/ru/domain/repository/SearchProjectsRepository.kt" />
+        <option value="$PROJECT_DIR$/mobile-ui/src/main/java/dev/rodni/ru/mobile_ui/di/module/RemoteModule.kt" />
+        <option value="$PROJECT_DIR$/mobile-ui/src/main/java/dev/rodni/ru/mobile_ui/glide/AppGlideModule.kt" />
+        <option value="$PROJECT_DIR$/mobile-ui/src/main/java/dev/rodni/ru/mobile_ui/glide/GithubAppGlideModule.kt" />
+        <option value="$PROJECT_DIR$/mobile-ui/src/main/java/dev/rodni/ru/mobile_ui/trending/ProjectItem.kt" />
+        <option value="$PROJECT_DIR$/mobile-ui/src/main/java/dev/rodni/ru/mobile_ui/trending/TrendingFragment.kt" />
       </list>
     </option>
   </component>
@@ -726,20 +590,6 @@
       <option name="presentableId" value="Default" />
       <updated>1567958851793</updated>
     </task>
-    <task id="LOCAL-00018" summary="contract data interface created. created its cache implementation.">
-      <created>1568128891285</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1568128891285</updated>
-    </task>
-    <task id="LOCAL-00019" summary="ProjectsRemoteDataStore created for remote's fetching data.">
-      <created>1568133558010</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1568133558010</updated>
-    </task>
     <task id="LOCAL-00020" summary="factory class is to handle a decision which implementation of a project's data source to use.">
       <created>1568134277857</created>
       <option name="number" value="00020" />
@@ -1069,7 +919,21 @@
       <option name="project" value="LOCAL" />
       <updated>1568662598377</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="added layer's modules into ui layer. with the mistake but dont look at this.">
+      <created>1568664329101</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1568664329102</updated>
+    </task>
+    <task id="LOCAL-00068" summary="search projects repo into the domain layer. fixed modules problems.">
+      <created>1568664875471</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1568664875471</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1106,10 +970,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.33055976" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.33055976" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Build Variants" order="4" side_tool="true" />
@@ -1137,7 +1000,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="." />
     <MESSAGE value="test structure and @delete error fixed." />
     <MESSAGE value="created the presentation layer's module." />
     <MESSAGE value="presentation layer's model created." />
@@ -1162,33 +1024,10 @@
     <MESSAGE value="presentation module." />
     <MESSAGE value="added view model's factory." />
     <MESSAGE value="added layer's modules into ui layer. with the mistake but dont look at this." />
-    <option name="LAST_COMMIT_MESSAGE" value="added layer's modules into ui layer. with the mistake but dont look at this." />
+    <MESSAGE value="search projects repo into the domain layer. fixed modules problems." />
+    <option name="LAST_COMMIT_MESSAGE" value="search projects repo into the domain layer. fixed modules problems." />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Presentation/src/main/java/dev/rodni/ru/presentation/viewmodel/BrowseBookmarkedProjectsViewModel.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="39" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="39" />
-          <folding>
-            <element signature="e#45#412#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Presentation/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Domain/src/main/java/dev/rodni/ru/domain/executor/PostExecutionThread.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Domain/src/main/java/dev/rodni/ru/domain/interactor/CompletableUseCase.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="83">
@@ -1324,13 +1163,6 @@
       </provider>
       <provider editor-type-id="android-designer2" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/mobile-ui/src/main/java/dev/rodni/ru/mobile_ui/model/Project.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mobile-ui/src/main/res/layout/fragment_trending.xml">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1338,14 +1170,6 @@
         </state>
       </provider>
       <provider selected="true" editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobile-ui/src/main/res/layout/item_project.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="35" column="43" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/mobile-ui/src/main/res/drawable/ic_collections_bookmark_black_24dp.xml">
       <provider selected="true" editor-type-id="text-editor" />
@@ -1386,16 +1210,6 @@
           <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
           <folding>
             <element signature="e#43#234#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobile-ui/src/main/java/dev/rodni/ru/mobile_ui/trending/ProjectItem.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-          <folding>
-            <element signature="e#41#283#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1465,30 +1279,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mobile-ui/src/main/java/dev/rodni/ru/mobile_ui/di/module/DataModule.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="79" selection-start-line="14" selection-start-column="79" selection-end-line="14" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobile-ui/src/main/java/dev/rodni/ru/mobile_ui/trending/TrendingFragment.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobile-ui/src/main/java/dev/rodni/ru/mobile_ui/di/module/CacheModule.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="29" column="77" selection-start-line="29" selection-start-column="77" selection-end-line="29" selection-end-column="77" />
-          <folding>
-            <element signature="e#42#230#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mobile-ui/build/generated/source/buildConfig/debug/dev/rodni/ru/mobile_ui/BuildConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1527,13 +1317,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Domain/src/main/java/dev/rodni/ru/domain/repository/ProjectsRepository.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="29" column="42" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Domain/src/main/java/dev/rodni/ru/domain/interactor/bookmarked/BookmarkProject.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1548,19 +1331,105 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data/src/main/java/dev/rodni/ru/data/ProjectsDataRepository.kt">
+    <entry file="file://$PROJECT_DIR$/Data/src/main/java/dev/rodni/ru/data/TrendingProjectsDataRepository.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        <state relative-caret-position="155">
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Domain/src/main/java/dev/rodni/ru/domain/repository/TrendingProjectsRepository.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="19" column="58" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile-ui/src/main/java/dev/rodni/ru/mobile_ui/di/module/DataModule.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="14" column="79" selection-start-line="14" selection-start-column="79" selection-end-line="14" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile-ui/src/main/java/dev/rodni/ru/mobile_ui/di/module/CacheModule.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="77" selection-start-line="29" selection-start-column="77" selection-end-line="29" selection-end-column="77" />
+          <folding>
+            <element signature="e#42#230#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile-ui/src/main/java/dev/rodni/ru/mobile_ui/model/Project.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="57" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.xwray/groupie-kotlin-android-extensions/2.3.0/11dc5f69e117e69c577ab550311cfc44e8521eaa/groupie-kotlin-android-extensions-2.3.0-sources.jar!/com/xwray/groupie/kotlinandroidextensions/ViewHolder.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mobile-ui/src/main/java/dev/rodni/ru/mobile_ui/di/module/RemoteModule.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="e#42#314#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile-ui/src/main/java/dev/rodni/ru/mobile_ui/glide/GithubAppGlideModule.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding>
+            <element signature="e#38#134#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Domain/src/main/java/dev/rodni/ru/domain/repository/SearchProjectsRepository.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <folding>
+            <element signature="e#40#149#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile-ui/src/main/res/layout/item_project.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="38" column="38" lean-forward="true" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile-ui/src/main/java/dev/rodni/ru/mobile_ui/trending/ProjectItem.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="56" column="80" selection-start-line="56" selection-start-column="80" selection-end-line="56" selection-end-column="80" />
+          <folding>
+            <element signature="e#41#315#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile-ui/src/main/java/dev/rodni/ru/mobile_ui/trending/TrendingFragment.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+          <folding>
+            <element signature="e#41#445#0" expanded="true" />
           </folding>
         </state>
       </provider>

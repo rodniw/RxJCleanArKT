@@ -25,6 +25,9 @@ class TrendingFragment: DaggerFragment() {
         super.onActivityCreated(savedInstanceState)
     }
 
+    /**
+     * recycler view with groupie
+     */
     private fun initRecyclerView(items: List<ProjectItem>) {
         val groupAdapter = GroupAdapter<ViewHolder>().apply {
             addAll(items)
@@ -36,7 +39,13 @@ class TrendingFragment: DaggerFragment() {
         }
 
         groupAdapter.setOnItemClickListener { item, view ->
-            Timber.d("clicked")
+            (item as? ProjectItem)?.let {
+                makeBookmarked()
+            }
         }
+    }
+
+    private fun makeBookmarked() {
+
     }
 }
