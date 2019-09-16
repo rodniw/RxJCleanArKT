@@ -5,6 +5,9 @@ import dagger.BindsInstance
 import dagger.Component
 import dagger.android.AndroidInjectionModule
 import dev.rodni.ru.mobile_ui.MyApplication
+import dev.rodni.ru.mobile_ui.di.module.ActivityBuilderModule
+import dev.rodni.ru.mobile_ui.di.module.ApplicationModule
+import dev.rodni.ru.mobile_ui.di.module.UiModule
 import javax.inject.Singleton
 
 /**
@@ -12,7 +15,10 @@ import javax.inject.Singleton
  */
 @Singleton
 @Component(modules = [
-AndroidInjectionModule::class
+    AndroidInjectionModule::class,
+    ApplicationModule::class,
+    UiModule::class,
+    ActivityBuilderModule::class
 ])
 interface ApplicationComponent {
 

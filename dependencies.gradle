@@ -9,6 +9,7 @@ ext {
 
     //Libraries
     supportLibraryVersion = "28.0.0"
+    appCompat = '1.0.2'
     rxJavaVersion = '2.4.0'
     javaxAnnotationVersion = '1.0'
     javaxInjectVersion = '1'
@@ -16,7 +17,7 @@ ext {
     rxKotlinVersion = '2.4.0'
     rxAndroidVersion = '2.1.1'
     androidAnnotationsVersion = '21.0.3'
-    daggerVersion = '2.11'
+    daggerVersion = '2.16'
     gsonVersion = '2.8.5'
     okHttpVersion = '4.2.0'
     retrofitVersion = '2.6.1'
@@ -152,9 +153,10 @@ ext {
             javaxAnnotation:    "javax.annotation:jsr250-api:${javaxAnnotationVersion}",
             javaxInject:        "javax.inject:javax.inject:${javaxInjectVersion}",
             androidAnnotations: "com.android.support:support-annotations:${supportLibraryVersion}",
-            androidSupportV4:   "com.android.support:support-v4:${supportLibraryVersion}",
-            androidSupportV13:  "com.android.support:support-v13:${supportLibraryVersion}",
-            appCompatV7:        "com.android.support:appcompat-v7:${supportLibraryVersion}",
+            appCompat:          "androidx.appcompat:appcompat:${appCompat}",
+            //androidSupportV4:   "com.android.support:support-v4:${supportLibraryVersion}",
+            //androidSupportV13:  "com.android.support:support-v13:${supportLibraryVersion}",
+            //appCompatV7:        "com.android.support:appcompat-v7:${supportLibraryVersion}",
             supportRecyclerView:"com.android.support:recyclerview-v7:${supportLibraryVersion}",
             supportDesign:      "com.android.support:design:${supportLibraryVersion}",
             timber:             "com.jakewharton.timber:timber:${timberVersion}",
