@@ -25,6 +25,7 @@ import javax.inject.Inject
  */
 class TrendingFragment: Fragment() {
 
+    @Inject lateinit var browseAdapter: TrendingAdapter
     @Inject lateinit var mapper: ProjectViewMapper
     @Inject lateinit var viewModelFactory: ViewModelFactory
     @Inject lateinit var browseViewModel: BrowseProjectsViewModel
@@ -37,8 +38,16 @@ class TrendingFragment: Fragment() {
         super.onActivityCreated(savedInstanceState)
         AndroidInjection.inject(activity)
 
+        /**
+         * sets up a view model
+         */
         browseViewModel = ViewModelProvider(this@TrendingFragment, viewModelFactory)
             .get(BrowseProjectsViewModel::class.java)
+
+        /**
+         * sets up the recycler view
+         */
+        setupBrowseRecycler()
     }
 
     override fun onStart() {
@@ -50,35 +59,32 @@ class TrendingFragment: Fragment() {
         browseViewModel.fetchProjects()
     }
 
+    /**
+     * inflates a menu
+     */
     override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
         inflater.inflate(R.menu.main, menu)
     }
 
     /**
-     * recycler view with groupie
+     * recycler view set up
      */
-    private fun initRecyclerView(items: List<ProjectItem>) {
-        val groupAdapter = GroupAdapter<ViewHolder>().apply {
-            addAll(items)
-        }
-
-        recycler_projects.apply {
-            layoutManager = LinearLayoutManager(context)
-            adapter = groupAdapter
-        }
-
-        groupAdapter.setOnItemClickListener { item, view ->
-            (item as? ProjectItem)?.let {
-                makeBookmarked()
-            }
-        }
+    private fun setupBrowseRecycler() {
+        browseAdapter.projectListener = projectListener
+        recycler_projects.layoutManager = LinearLayoutManager(activity)
+        recycler_projects.adapter = browseAdapter
     }
 
-    private fun makeBookmarked() {
+    /**
+     * handles clicks on items
+     */
+    private val projectListener = object : ProjectListener {
+        override fun onBookmarkedProjectClicked(projectId: String) {
+            browseViewModel.unbookmarkProject(projectId)
+        }
 
-    }
-
-    private fun handleDataState(resource: Resource<List<ProjectView>>) {
-
+        override fun onProjectClicked(projectId: String) {
+            browseViewModel.bookmarkProject(projectId)
+        }
     }
 }
