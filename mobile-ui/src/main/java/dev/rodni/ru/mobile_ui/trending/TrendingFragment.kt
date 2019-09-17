@@ -1,23 +1,25 @@
 package dev.rodni.ru.mobile_ui.trending
 
 import android.os.Bundle
-import android.view.*
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
-import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.xwray.groupie.GroupAdapter
-import com.xwray.groupie.ViewHolder
 import dagger.android.AndroidInjection
-import dagger.android.DaggerFragment
 import dev.rodni.ru.mobile_ui.R
 import dev.rodni.ru.mobile_ui.di.ViewModelFactory
 import dev.rodni.ru.mobile_ui.mapper.ProjectViewMapper
+import dev.rodni.ru.mobile_ui.model.Project
 import dev.rodni.ru.presentation.model.ProjectView
 import dev.rodni.ru.presentation.state.Resource
+import dev.rodni.ru.presentation.state.ResourceState
 import dev.rodni.ru.presentation.viewmodel.BrowseProjectsViewModel
+import kotlinx.android.synthetic.main.fragment_bookmarked.*
 import kotlinx.android.synthetic.main.fragment_trending.*
+import kotlinx.android.synthetic.main.fragment_trending.recycler_projects
 import javax.inject.Inject
 
 /**
@@ -52,18 +54,13 @@ class TrendingFragment: Fragment() {
 
     override fun onStart() {
         super.onStart()
-        browseViewModel.getProjects().observe(this@TrendingFragment,
+        browseViewModel.getProjects().observe(this,
             Observer<Resource<List<ProjectView>>> {
-
+                it?.let {
+                    handleDataState(it)
+                }
             })
         browseViewModel.fetchProjects()
-    }
-
-    /**
-     * inflates a menu
-     */
-    override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
-        inflater.inflate(R.menu.main, menu)
     }
 
     /**
@@ -73,6 +70,43 @@ class TrendingFragment: Fragment() {
         browseAdapter.projectListener = projectListener
         recycler_projects.layoutManager = LinearLayoutManager(activity)
         recycler_projects.adapter = browseAdapter
+    }
+
+    /**
+     * handles loading view state
+     *
+     * in case of loading this hides the recycler view
+     * and shows the loading state with the shimmer animation
+     */
+    private fun handleDataState(resource: Resource<List<ProjectView>>) {
+        when (resource.status) {
+            ResourceState.SUCCESS -> {
+                setupScreenForSuccess(resource.data?.map {
+                    mapper.mapToView(it)
+                })
+            }
+            ResourceState.LOADING -> {
+                recycler_projects.visibility = View.GONE
+                homeShimmer.visibility = View.VISIBLE
+                //homeLogo.visibility = View.GONE
+                homeShimmer.startShimmer()
+            }
+        }
+    }
+
+    /**
+     * makes recycler view visible
+     */
+    private fun setupScreenForSuccess(projects: List<Project>?) {
+        homeShimmer.visibility = View.GONE
+        homeShimmer.stopShimmer()
+        projects?.let {
+            browseAdapter.projects = it
+            browseAdapter.notifyDataSetChanged()
+            recycler_projects.visibility = View.VISIBLE
+        } ?: run {
+
+        }
     }
 
     /**
