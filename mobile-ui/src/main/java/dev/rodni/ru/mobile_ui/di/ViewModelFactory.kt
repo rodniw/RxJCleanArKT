@@ -33,6 +33,7 @@ open class ViewModelFactory : ViewModelProvider.Factory {
             throw IllegalStateException("Unknown model class: " + modelClass)
         }
         try {
+            @Suppress("UNCHECKED_CAST")
             return creator.get() as T
         } catch (e: Exception) {
             throw RuntimeException(e)

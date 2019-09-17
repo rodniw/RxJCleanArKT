@@ -31,6 +31,8 @@ ext {
     navigationVersion = '2.1.0-alpha05'
     materialDesign = '1.1.0-alpha07'
     groupie = '2.3.0'
+    shimmer = '0.4.0'
+    materialSearchBar = '0.7.5'
 
     //Testing
     jUnitVersion = '4.12'
@@ -170,7 +172,9 @@ ext {
             navigationUI:       "androidx.navigation:navigation-ui-ktx:${navigationVersion}",
             materialDesign:     "com.google.android.material:material:${materialDesign}",
             groupieCore:        "com.xwray:groupie:${groupie}",
-            groupieKotlin:      "com.xwray:groupie-kotlin-android-extensions:${groupie}"
+            groupieKotlin:      "com.xwray:groupie-kotlin-android-extensions:${groupie}",
+            shimmer:            "com.facebook.shimmer:shimmer:${shimmer}",
+            materialSearchBar:  "com.github.mancj:MaterialSearchBar:${materialSearchBar}"
     ]
 
     mobileUiTestDependencies = [

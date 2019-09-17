@@ -2,6 +2,7 @@ package dev.rodni.ru.cache.mapper
 
 import dev.rodni.ru.cache.model.CachedProject
 import dev.rodni.ru.data.model.ProjectEntity
+import javax.inject.Inject
 
 /**
  * implements
@@ -9,7 +10,7 @@ import dev.rodni.ru.data.model.ProjectEntity
  *
  * to find out which method what should do go there
  */
-class CachedProjectMapper: CacheMapper<CachedProject, ProjectEntity> {
+class CachedProjectMapper @Inject constructor(): CacheMapper<CachedProject, ProjectEntity> {
     override fun mapFromCached(type: CachedProject): ProjectEntity {
         return ProjectEntity(type.id, type.name, type.fullName, type.starCount,
             type.dateCreated, type.ownerName, type.ownerAvatar,
