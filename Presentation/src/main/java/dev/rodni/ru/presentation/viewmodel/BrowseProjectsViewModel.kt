@@ -29,6 +29,10 @@ open class BrowseProjectsViewModel @Inject internal constructor(
      */
     private val liveData: MutableLiveData<Resource<List<ProjectView>>> = MutableLiveData()
 
+    init {
+        fetchProjects()
+    }
+
     /**
      * this method clears all the disposables
      */

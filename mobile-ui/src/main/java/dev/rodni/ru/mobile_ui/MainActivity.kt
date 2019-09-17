@@ -1,15 +1,11 @@
 package dev.rodni.ru.mobile_ui
 
 import android.os.Bundle
-import android.view.Menu
-import android.view.MenuInflater
-import android.view.MenuItem
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
 import androidx.navigation.ui.NavigationUI
 import androidx.navigation.ui.setupWithNavController
 import dagger.android.support.DaggerAppCompatActivity
-import dev.rodni.ru.mobile_ui.bookmarked.BookmarkedFragment
 import kotlinx.android.synthetic.main.activity_main.*
 
 /**
@@ -43,6 +39,10 @@ class MainActivity: DaggerAppCompatActivity() {
      */
     override fun onSupportNavigateUp(): Boolean {
         return NavigationUI.navigateUp(navController, null)
+    }
+
+    override fun onSaveInstanceState(outState: Bundle) {
+        super.onSaveInstanceState(outState)
     }
 
 }

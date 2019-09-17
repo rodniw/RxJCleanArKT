@@ -12,6 +12,8 @@ interface GithubTrendingService {
 
     /**
      * fetching trending projects
+     *
+     * https://api.github.com/search/repositories?q=language:kotlin&sort=stars&order=desc
      */
     @GET("search/repositories")
     fun searchRepositories(@Query("q") query: String,

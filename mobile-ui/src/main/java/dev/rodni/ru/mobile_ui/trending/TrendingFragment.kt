@@ -51,14 +51,14 @@ class TrendingFragment: Fragment() {
         /**
          * sets up a view model
          */
-        browseViewModel = ViewModelProvider(this@TrendingFragment, viewModelFactory)
+        browseViewModel = ViewModelProvider(this, viewModelFactory)
             .get(BrowseProjectsViewModel::class.java)
 
     }
 
     override fun onStart() {
         super.onStart()
-        browseViewModel.getProjects().observe(this,
+        browseViewModel.getProjects().observe(this@TrendingFragment,
             Observer<Resource<List<ProjectView>>> {
                 it?.let {
                     handleDataState(it)

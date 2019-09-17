@@ -26,6 +26,8 @@ class ProjectsRemoteImpl @Inject constructor(
      * overrides method from
      * @see ProjectsRemote
      * to fetch remote data from the internet
+     *
+     * https://api.github.com/search/repositories?q=language:kotlin&sort=stars&order=desc
      */
     override fun getProjects(): Flowable<List<ProjectEntity>> {
         return service.searchRepositories("language:kotlin", "stars", "desc")

@@ -26,12 +26,10 @@
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_nav"
-        app:itemTextColor="@color/colorPrimary"
+        app:itemTextColor="@color/colorPrimaryDark"
         app:itemRippleColor="@color/colorAccent"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:menu="@menu/bottom_main"/>
 
 </LinearLayout>
-
-<!---->
