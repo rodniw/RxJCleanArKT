@@ -2,6 +2,7 @@ package dev.rodni.ru.data.repository
 
 import dev.rodni.ru.data.model.ProjectEntity
 import io.reactivex.Completable
+import io.reactivex.Flowable
 import io.reactivex.Observable
 import io.reactivex.Single
 
@@ -15,10 +16,10 @@ interface ProjectsCache {
     fun saveProjects(projects: List<ProjectEntity>): Completable
 
     //fetches projects
-    fun getProjects(): Observable<List<ProjectEntity>>
+    fun getProjects(): Flowable<List<ProjectEntity>>
 
     //fetching bookmarked projects
-    fun getBookmarkedProjects(): Observable<List<ProjectEntity>>
+    fun getBookmarkedProjects(): Flowable<List<ProjectEntity>>
 
     //setting a project as bookmarked
     fun setProjectAsBookmarked(projectId: String): Completable

@@ -1,6 +1,7 @@
 package dev.rodni.ru.domain.interactor
 
 import dev.rodni.ru.domain.executor.PostExecutionThread
+import io.reactivex.Flowable
 import io.reactivex.Observable
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.disposables.Disposable
@@ -14,13 +15,13 @@ abstract class ObservableUseCase<T, in Params> constructor(
 
     private val disposables = CompositeDisposable()
 
-    protected abstract fun buildUseCaseObservable(params: Params? = null): Observable<T>
+    protected abstract fun buildUseCaseObservable(params: Params? = null): Flowable<T>
 
-    open fun execute(obseerver: DisposableObserver<T>, params: Params? = null) {
+    open fun execute(observer: DisposableObserver<T>, params: Params? = null) {
         val observable = this.buildUseCaseObservable(params)
             .subscribeOn(Schedulers.io())
             .observeOn(postExecutionThread.scheduler)
-        addDisposable(observable.subscribeWith(obseerver))
+        addDisposable(observable.toObservable().subscribeWith(observer))
     }
 
     //a way to add a disposable into the composite disposable

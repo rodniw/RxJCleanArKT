@@ -4,6 +4,7 @@ import dev.rodni.ru.data.model.ProjectEntity
 import dev.rodni.ru.data.repository.ProjectsRemote
 import dev.rodni.ru.remote.mapper.ProjectsResponseModelMapper
 import dev.rodni.ru.remote.service.GithubTrendingService
+import io.reactivex.Flowable
 import io.reactivex.Observable
 import javax.inject.Inject
 
@@ -26,7 +27,7 @@ class ProjectsRemoteImpl @Inject constructor(
      * @see ProjectsRemote
      * to fetch remote data from the internet
      */
-    override fun getProjects(): Observable<List<ProjectEntity>> {
+    override fun getProjects(): Flowable<List<ProjectEntity>> {
         return service.searchRepositories("language:kotlin", "stars", "desc")
             .map {
                 it.items.map { mapper.mapFromModel(it) }

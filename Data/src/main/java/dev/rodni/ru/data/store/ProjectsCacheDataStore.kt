@@ -4,6 +4,7 @@ import dev.rodni.ru.data.model.ProjectEntity
 import dev.rodni.ru.data.repository.ProjectsCache
 import dev.rodni.ru.data.repository.ProjectsDataStore
 import io.reactivex.Completable
+import io.reactivex.Flowable
 import io.reactivex.Observable
 import javax.inject.Inject
 
@@ -16,7 +17,7 @@ open class ProjectsCacheDataStore @Inject constructor(
     private val projectsCache: ProjectsCache
 ) : ProjectsDataStore {
 
-    override fun getProjects(): Observable<List<ProjectEntity>> {
+    override fun getProjects(): Flowable<List<ProjectEntity>> {
         return projectsCache.getProjects()
     }
 
@@ -30,7 +31,7 @@ open class ProjectsCacheDataStore @Inject constructor(
         return projectsCache.clearProjects(projects)
     }
 
-    override fun getBookmarkedProjects(): Observable<List<ProjectEntity>> {
+    override fun getBookmarkedProjects(): Flowable<List<ProjectEntity>> {
         return projectsCache.getBookmarkedProjects()
     }
 

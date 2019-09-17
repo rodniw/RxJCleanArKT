@@ -9,6 +9,7 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import dagger.android.AndroidInjection
+import dagger.android.support.AndroidSupportInjection
 import dev.rodni.ru.mobile_ui.R
 import dev.rodni.ru.mobile_ui.di.ViewModelFactory
 import dev.rodni.ru.mobile_ui.mapper.ProjectViewMapper
@@ -17,9 +18,7 @@ import dev.rodni.ru.presentation.model.ProjectView
 import dev.rodni.ru.presentation.state.Resource
 import dev.rodni.ru.presentation.state.ResourceState
 import dev.rodni.ru.presentation.viewmodel.BrowseProjectsViewModel
-import kotlinx.android.synthetic.main.fragment_bookmarked.*
 import kotlinx.android.synthetic.main.fragment_trending.*
-import kotlinx.android.synthetic.main.fragment_trending.recycler_projects
 import javax.inject.Inject
 
 /**
@@ -38,7 +37,16 @@ class TrendingFragment: Fragment() {
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
-        AndroidInjection.inject(activity)
+
+        /**
+         * sets up the recycler view
+         */
+        setupBrowseRecycler()
+    }
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        AndroidSupportInjection.inject(this)
 
         /**
          * sets up a view model
@@ -46,10 +54,6 @@ class TrendingFragment: Fragment() {
         browseViewModel = ViewModelProvider(this@TrendingFragment, viewModelFactory)
             .get(BrowseProjectsViewModel::class.java)
 
-        /**
-         * sets up the recycler view
-         */
-        setupBrowseRecycler()
     }
 
     override fun onStart() {

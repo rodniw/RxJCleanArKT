@@ -6,6 +6,7 @@ import dev.rodni.ru.cache.model.Config
 import dev.rodni.ru.data.model.ProjectEntity
 import dev.rodni.ru.data.repository.ProjectsCache
 import io.reactivex.Completable
+import io.reactivex.Flowable
 import io.reactivex.Observable
 import io.reactivex.Single
 import javax.inject.Inject
@@ -48,9 +49,9 @@ class ProjectsCacheImpl @Inject constructor(
     /**
      * gets project's list from the db
      */
-    override fun getProjects(): Observable<List<ProjectEntity>> {
+    override fun getProjects(): Flowable<List<ProjectEntity>> {
         return appDatabase.cachedProjectsDao().getProjects()
-            .toObservable()
+            //.toFlowable()
             .map {
                 it.map {
                     mapper.mapFromCached(it)
@@ -61,9 +62,9 @@ class ProjectsCacheImpl @Inject constructor(
     /**
      * gets bookmarked project's list from the db
      */
-    override fun getBookmarkedProjects(): Observable<List<ProjectEntity>> {
+    override fun getBookmarkedProjects(): Flowable<List<ProjectEntity>> {
         return appDatabase.cachedProjectsDao().getBookmarkedProjects()
-            .toObservable()
+            //.toObservable()
             .map {
                 it.map {
                     mapper.mapFromCached(it)

@@ -59,17 +59,10 @@ class TrendingAdapter @Inject constructor(): RecyclerView.Adapter<TrendingAdapte
     }
 
     inner class ViewHolder(view: View): RecyclerView.ViewHolder(view) {
-        var avatarImage: ImageView
-        var ownerNameText: TextView
-        var projectNameText: TextView
-        var bookmarkedImage: ImageView
-
-        init {
-            avatarImage = view.findViewById(R.id.image_owner_avatar)
-            ownerNameText = view.findViewById(R.id.text_owner_name)
-            projectNameText = view.findViewById(R.id.text_project_name)
-            bookmarkedImage = view.findViewById(R.id.image_bookmarked)
-        }
+        var avatarImage: ImageView = view.findViewById(R.id.image_owner_avatar)
+        var ownerNameText: TextView = view.findViewById(R.id.text_owner_name)
+        var projectNameText: TextView = view.findViewById(R.id.text_project_name)
+        var bookmarkedImage: ImageView = view.findViewById(R.id.image_bookmarked)
     }
 
 }

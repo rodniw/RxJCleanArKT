@@ -27,6 +27,7 @@ class BookmarkedFragment: DaggerFragment() {
     @Inject lateinit var adapter: BookmarkedAdapter
     @Inject lateinit var mapper: ProjectViewMapper
     @Inject lateinit var viewModelFactory: ViewModelFactory
+
     lateinit var browseViewModel: BrowseBookmarkedProjectsViewModel
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {

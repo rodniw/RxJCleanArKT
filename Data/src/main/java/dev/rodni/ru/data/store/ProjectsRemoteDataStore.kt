@@ -4,7 +4,9 @@ import dev.rodni.ru.data.model.ProjectEntity
 import dev.rodni.ru.data.repository.ProjectsDataStore
 import dev.rodni.ru.data.repository.ProjectsRemote
 import io.reactivex.Completable
+import io.reactivex.Flowable
 import io.reactivex.Observable
+import org.intellij.lang.annotations.Flow
 import java.lang.UnsupportedOperationException
 import javax.inject.Inject
 
@@ -23,12 +25,12 @@ open class ProjectsRemoteDataStore @Inject constructor(
 ) : ProjectsDataStore{
 
     //the only method that i implement here
-    override fun getProjects(): Observable<List<ProjectEntity>> {
+    override fun getProjects(): Flowable<List<ProjectEntity>> {
         return projectsRemote.getProjects()
     }
 
     //---NOT implemented and will not be in this class
-    override fun getBookmarkedProjects(): Observable<List<ProjectEntity>> {
+    override fun getBookmarkedProjects(): Flowable<List<ProjectEntity>> {
         throw UnsupportedOperationException("this method isn t supported here")
     }
 

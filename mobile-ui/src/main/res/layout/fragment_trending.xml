@@ -15,7 +15,7 @@
         android:layout_marginRight="16dp"
         android:layout_marginTop="16dp"
         app:mt_maxSuggestionsCount="3"
-        app:mt_placeholder="Click to find a cool repo!"
+        app:mt_placeholder="Find a repo"
         app:mt_searchIconDrawable="@drawable/ic_search_black" />
 
     <androidx.recyclerview.widget.RecyclerView

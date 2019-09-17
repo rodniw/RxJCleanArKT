@@ -4,6 +4,7 @@ import dev.rodni.ru.domain.executor.PostExecutionThread
 import dev.rodni.ru.domain.interactor.ObservableUseCase
 import dev.rodni.ru.domain.model.Project
 import dev.rodni.ru.domain.repository.TrendingProjectsRepository
+import io.reactivex.Flowable
 import io.reactivex.Observable
 import javax.inject.Inject
 
@@ -14,7 +15,7 @@ open class GetProjects @Inject constructor(
     postExecutionThread: PostExecutionThread
 ) : ObservableUseCase<List<Project>, Nothing?>(postExecutionThread){
 
-    public override fun buildUseCaseObservable(params: Nothing?): Observable<List<Project>> {
+    public override fun buildUseCaseObservable(params: Nothing?): Flowable<List<Project>> {
         return trendingProjectsRepository.getProjects()
     }
 

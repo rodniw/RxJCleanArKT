@@ -6,6 +6,7 @@ import dev.rodni.ru.data.store.ProjectsDataStoreFactory
 import dev.rodni.ru.domain.model.Project
 import dev.rodni.ru.domain.repository.TrendingProjectsRepository
 import io.reactivex.Completable
+import io.reactivex.Flowable
 import io.reactivex.Observable
 import io.reactivex.functions.BiFunction
 import javax.inject.Inject
@@ -29,10 +30,10 @@ open class TrendingProjectsDataRepository @Inject constructor(
      * if a user already has cached and not expired projects then this method will fetch data
      * from cache data store
      */
-    override fun getProjects(): Observable<List<Project>> {
-        return Observable
-            .zip<Boolean, Boolean, Pair<Boolean, Boolean>>(cache.areProjectsCached().toObservable(),
-            cache.isProjectsCacheExpired().toObservable(),
+    override fun getProjects(): Flowable<List<Project>> {
+        return Flowable
+            .zip<Boolean, Boolean, Pair<Boolean, Boolean>>(cache.areProjectsCached().toFlowable(),
+            cache.isProjectsCacheExpired().toFlowable(),
             BiFunction { areCached, isExpired -> Pair(areCached, isExpired) })
                 //return list of project entity from project data store
             .flatMap {
@@ -42,7 +43,7 @@ open class TrendingProjectsDataRepository @Inject constructor(
             .flatMap {
                 factory.getCacheDataStore()
                     .saveProjects(it)
-                    .andThen(Observable.just(it))
+                    .andThen(Flowable.just(it))
             }
                 //this fetches an object by projects mapper
             .map {
@@ -70,7 +71,7 @@ open class TrendingProjectsDataRepository @Inject constructor(
     /**
      * this method fetches list of bookmarked projects and transform items into data's layer entities
      */
-    override fun getBookmarkedProjects(): Observable<List<Project>> {
+    override fun getBookmarkedProjects(): Flowable<List<Project>> {
         return factory.getCacheDataStore().getBookmarkedProjects()
             .map {
                 it.map { mapper.mapFromEntity(it)}
