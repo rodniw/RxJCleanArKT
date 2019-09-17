@@ -23,7 +23,7 @@ import kotlinx.android.synthetic.main.fragment_trending.recycler_projects
 import javax.inject.Inject
 
 /**
- * main fragment which shows list of trending projects
+ * bottom_main fragment which shows list of trending projects
  */
 class TrendingFragment: Fragment() {
 

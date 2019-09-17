@@ -9,7 +9,7 @@ import dev.rodni.ru.mobile_ui.di.module.*
 import javax.inject.Singleton
 
 /**
- * the main app's component
+ * the bottom_main app's component
  */
 @Singleton
 @Component(modules = [

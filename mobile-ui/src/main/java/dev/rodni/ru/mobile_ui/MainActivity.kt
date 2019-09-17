@@ -13,7 +13,7 @@ import dev.rodni.ru.mobile_ui.bookmarked.BookmarkedFragment
 import kotlinx.android.synthetic.main.activity_main.*
 
 /**
- * main app's activity
+ * bottom_main app's activity
  * which is a host for fragments
  * with navigation framework
  */

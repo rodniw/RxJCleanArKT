@@ -10,7 +10,7 @@ import timber.log.Timber
 import javax.inject.Inject
 
 /**
- * main application class
+ * bottom_main application class
  */
 class MyApplication: Application(), HasActivityInjector {
 

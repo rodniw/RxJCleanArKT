@@ -1,8 +1,11 @@
 <resources>
     <string name="app_name">Github Client Clean Architecture</string>
 
-    <string name="title_activity_main">Trending projects</string>
+    <string name="title_activity_main">Github</string>
 
-    <string name="bookmarked_projects">Bookmarked projects</string>
-    <string name="title_bookmarked">Bookmarked</string>
+    <string name="searched_projects">Search</string>
+    <string name="trending_projects">Trending</string>
+    <string name="bookmarked_projects">Bookmarked</string>
+
+    <string name="title_bookmarked">Bookmarked projects</string>
 </resources>
