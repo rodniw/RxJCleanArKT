@@ -10,27 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab578ab6-be02-4706-bafe-d56848b09136" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mobile-ui/src/androidTest/java/dev/rodni/ru/mobile_ui/factory/TestDataFactory.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile-ui/src/androidTest/java/dev/rodni/ru/mobile_ui/factory/TestProjectFactory.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Data/Data.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Data/Data.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Domain/Domain.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Domain/Domain.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Remote/Remote.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Remote/Remote.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/build/kotlin/compileKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/build/kotlin/compileKotlin/build-history.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/build/kotlin/compileKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/build/kotlin/compileKotlin/last-build.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/build/libs/Domain.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/build/libs/Domain.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile-ui/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/mobile-ui/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/src/test/java/dev/rodni/ru/data/ProjectsDataRepositoryTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/src/test/java/dev/rodni/ru/data/ProjectsDataRepositoryTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/src/test/java/dev/rodni/ru/data/store/ProjectsCacheDataStoreTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/src/test/java/dev/rodni/ru/data/store/ProjectsCacheDataStoreTest.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -66,23 +48,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mobile-ui/build.gradle">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Data/src/test/java/dev/rodni/ru/data/store/ProjectsCacheDataStoreTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+            <state relative-caret-position="289">
+              <caret line="17" column="28" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="28" />
+              <folding>
+                <element signature="e#33#487#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mobile-ui/src/androidTest/java/dev/rodni/ru/mobile_ui/trending/TrendingProjectsFragmentTest.kt">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Data/src/main/java/dev/rodni/ru/data/repository/ProjectsCache.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="46" column="26" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
-              <folding>
-                <element signature="e#41#289#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="136">
+              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -113,8 +95,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/mobile-ui/src/main/java/dev/rodni/ru/mobile_ui/glide/AppGlideModule.kt" />
-        <option value="$PROJECT_DIR$/mobile-ui/src/main/java/dev/rodni/ru/mobile_ui/glide/GithubAppGlideModule.kt" />
         <option value="$PROJECT_DIR$/mobile-ui/src/main/java/dev/rodni/ru/mobile_ui/trending/ProjectItem.kt" />
         <option value="$PROJECT_DIR$/dependencies.gradle" />
         <option value="$PROJECT_DIR$/build.gradle" />
@@ -164,6 +144,8 @@
         <option value="$PROJECT_DIR$/mobile-ui/src/androidTest/java/dev/rodni/ru/mobile_ui/factory/TestDataFactory.kt" />
         <option value="$PROJECT_DIR$/mobile-ui/src/androidTest/java/dev/rodni/ru/mobile_ui/factory/TestProjectFactory.kt" />
         <option value="$PROJECT_DIR$/mobile-ui/src/androidTest/java/dev/rodni/ru/mobile_ui/trending/TrendingProjectsFragmentTest.kt" />
+        <option value="$PROJECT_DIR$/Data/src/test/java/dev/rodni/ru/data/store/ProjectsCacheDataStoreTest.kt" />
+        <option value="$PROJECT_DIR$/Data/src/test/java/dev/rodni/ru/data/ProjectsDataRepositoryTest.kt" />
       </list>
     </option>
   </component>
@@ -182,6 +164,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -192,59 +175,25 @@
             <path>
               <item name="RxJCleanArKT" type="b2602c69:ProjectViewProjectNode" />
               <item name="RxJCleanArKT" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="mobile-ui" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Data" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="RxJCleanArKT" type="b2602c69:ProjectViewProjectNode" />
               <item name="RxJCleanArKT" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="mobile-ui" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Data" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="RxJCleanArKT" type="b2602c69:ProjectViewProjectNode" />
               <item name="RxJCleanArKT" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="mobile-ui" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="androidTest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RxJCleanArKT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RxJCleanArKT" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="mobile-ui" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="androidTest" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RxJCleanArKT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RxJCleanArKT" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="mobile-ui" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="androidTest" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mobile_ui" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RxJCleanArKT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RxJCleanArKT" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="mobile-ui" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="androidTest" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mobile_ui" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RxJCleanArKT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RxJCleanArKT" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="mobile-ui" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Data" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="RxJCleanArKT" type="b2602c69:ProjectViewProjectNode" />
               <item name="RxJCleanArKT" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="mobile-ui" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Data" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -252,28 +201,27 @@
             <path>
               <item name="RxJCleanArKT" type="b2602c69:ProjectViewProjectNode" />
               <item name="RxJCleanArKT" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="mobile-ui" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Data" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mobile_ui" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="RxJCleanArKT" type="b2602c69:ProjectViewProjectNode" />
               <item name="RxJCleanArKT" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="mobile-ui" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Data" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mobile_ui" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -311,7 +259,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Android App.mobile-ui">
+  <component name="RunManager" selected="Android JUnit.ProjectsDataRepositoryTest">
     <configuration name="BrowseProjectsViewModeltest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <module name="Presentation" />
       <extension name="coverage">
@@ -363,36 +311,42 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProjectsRemoteImplTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Remote" />
+    <configuration name="ProjectsCacheDataStoreTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Data" />
+      <shortenClasspath name="NONE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.rodni.ru.remote.*" />
+          <option name="PATTERN" value="dev.rodni.ru.data.store.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="dev.rodni.ru.remote" />
-      <option name="MAIN_CLASS_NAME" value="dev.rodni.ru.remote.ProjectsRemoteImplTest" />
+      <option name="PACKAGE_NAME" value="dev.rodni.ru.data.store" />
+      <option name="MAIN_CLASS_NAME" value="dev.rodni.ru.data.store.ProjectsCacheDataStoreTest" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
-        <option name="Make" enabled="true" />
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProjectsResponseModelMapperTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Remote" />
+    <configuration name="ProjectsDataRepositoryTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Data" />
+      <shortenClasspath name="NONE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.rodni.ru.remote.mapper.*" />
+          <option name="PATTERN" value="dev.rodni.ru.data.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="dev.rodni.ru.remote.mapper" />
-      <option name="MAIN_CLASS_NAME" value="dev.rodni.ru.remote.mapper.ProjectsResponseModelMapperTest" />
+      <option name="PACKAGE_NAME" value="dev.rodni.ru.data" />
+      <option name="MAIN_CLASS_NAME" value="dev.rodni.ru.data.ProjectsDataRepositoryTest" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
-        <option name="Make" enabled="true" />
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
@@ -514,6 +468,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Android JUnit.ProjectsDataRepositoryTest" />
+        <item itemvalue="Android JUnit.ProjectsCacheDataStoreTest" />
         <item itemvalue="Android JUnit.ProjectMapperTest" />
         <item itemvalue="Android JUnit.BrowseProjectsViewModeltest" />
         <item itemvalue="Android JUnit.ProjectViewMapperTest" />
@@ -530,13 +486,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1567958851793</updated>
-    </task>
-    <task id="LOCAL-00031" summary="main repo into the remote layer which is a bridge to the data layer. this repo has the only one method to fetch list of projects from the github.">
-      <created>1568213369292</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1568213369292</updated>
     </task>
     <task id="LOCAL-00032" summary="setting up remote layer test package to test the project mapper and the data fetching.">
       <created>1568215399236</created>
@@ -874,7 +823,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568916016870</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="started creation ui tests. todo: write fragment run rule.">
+      <created>1568988010827</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1568988010827</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -913,7 +869,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498366" visible="true" weight="0.2473525" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498366" visible="true" weight="0.2473525" />
       <window_info id="Structure" order="1" side_tool="true" />
       <window_info id="Captures" order="2" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -923,7 +879,7 @@
       <window_info id="Resources Explorer" order="7" />
       <window_info id="Capture Tool" order="8" />
       <window_info anchor="bottom" id="Find" order="0" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="1" weight="0.32843137" />
       <window_info anchor="bottom" id="Logcat" order="2" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="3" />
       <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.50075644" side_tool="true" weight="0.29787233" />
@@ -942,7 +898,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="start work with ui layer. created post execution thread." />
     <MESSAGE value="created application class." />
     <MESSAGE value="set up di of the ui." />
     <MESSAGE value="project model for the ui layer." />
@@ -967,37 +922,10 @@
     <MESSAGE value="prepared to write tests." />
     <MESSAGE value="di for ui tests." />
     <MESSAGE value="created TestRunner for ui tests." />
-    <option name="LAST_COMMIT_MESSAGE" value="created TestRunner for ui tests." />
+    <MESSAGE value="started creation ui tests. todo: write fragment run rule." />
+    <option name="LAST_COMMIT_MESSAGE" value="started creation ui tests. todo: write fragment run rule." />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mobile-ui/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobile-ui/src/main/java/dev/rodni/ru/mobile_ui/MyApplication.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Presentation/src/main/java/dev/rodni/ru/presentation/viewmodel/BrowseBookmarkedProjectsViewModel.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="42" column="29" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobile-ui/src/main/java/dev/rodni/ru/mobile_ui/di/ViewModelFactory.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mobile-ui/src/main/java/dev/rodni/ru/mobile_ui/bookmarked/BookmarkedFragment.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="141">
@@ -1113,20 +1041,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data/src/main/java/dev/rodni/ru/data/store/ProjectsCacheDataStore.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="37" column="73" selection-start-line="37" selection-start-column="73" selection-end-line="37" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/src/main/java/dev/rodni/ru/data/repository/ProjectsCache.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mobile-ui/src/main/AndroidManifest.xml">
       <provider editor-type-id="android-manifest" />
       <provider selected="true" editor-type-id="text-editor" />
@@ -1157,12 +1071,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mobile-ui/src/main/res/navigation/mobile_navigation.xml">
-      <provider editor-type-id="nav-designer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="39" lean-forward="true" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
         </state>
       </provider>
+      <provider editor-type-id="nav-designer" />
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.android.material/material/1.1.0-alpha07/8545936dd92172bf4230585aedc68830ded426b6/material-1.1.0-alpha07-sources.jar!/com/google/android/material/bottomnavigation/BottomNavigationView.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1314,13 +1228,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mobile-ui/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mobile-ui/src/androidTest/java/dev/rodni/ru/mobile_ui/factory/TestDataFactory.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -1344,10 +1251,62 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mobile-ui/src/androidTest/java/dev/rodni/ru/mobile_ui/trending/TrendingProjectsFragmentTest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="46" column="26" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
+        <state relative-caret-position="272">
+          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
           <folding>
-            <element signature="e#41#289#0" expanded="true" />
+            <element signature="e#41#617#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile-ui/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cache/src/test/java/dev/rodni/ru/cache/dao/CachedProjectsDaoTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.2.10/9d22e03b9f0a300edff23ccf219d406d12c3378f/rxjava-2.2.10-sources.jar!/io/reactivex/Flowable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="18614" column="35" selection-start-line="18614" selection-start-column="35" selection-end-line="18614" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/src/main/java/dev/rodni/ru/data/store/ProjectsCacheDataStore.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/src/main/java/dev/rodni/ru/data/repository/ProjectsCache.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/src/test/java/dev/rodni/ru/data/ProjectsDataRepositoryTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="49" column="32" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/src/test/java/dev/rodni/ru/data/store/ProjectsCacheDataStoreTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="28" />
+          <folding>
+            <element signature="e#33#487#0" expanded="true" />
           </folding>
         </state>
       </provider>
